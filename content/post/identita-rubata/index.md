@@ -4,7 +4,7 @@
 title: "Cronaca di un'identità rubata"
 subtitle: ""
 summary: ""
-authors: ["edoardo"]
+authors: ["suphero"]
 tags: ["privacy", "spid"]
 categories: ["Article", "Blog"]
 date: 2017-12-03T14:48:58+01:00

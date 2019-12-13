@@ -4,7 +4,7 @@ name: Harun Sokullu
 
 # Username (this should match the folder name)
 authors:
-- edoardo
+- suphero
 
 # Is this the primary user of the site?
 superuser: true
