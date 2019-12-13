@@ -85,7 +85,7 @@ edit_page = {repo_url = "https://github.com/gcushen/hugo-academic", content_dir 
 ############################
 
 # Enter contact details (optional). To hide a field, clear it to "".
-email = "edoardo.m.debenedetti@gmail.com"
+email = "harunsokullu@gmail.com"
 phone = ""
 
 # Address
@@ -109,10 +109,10 @@ appointment_url = ""
 # Contact links
 #   Set to `[]` to disable, or comment out unwanted lines with a hash `#`.
 contact_links = [
-  {icon = "github", icon_pack = "fab", name = "Check out some code", link = "https://github.com/dedeswim"},
-  {icon = "twitter", icon_pack = "fab", name = "DM Me", link = "https://twitter.com/edoardo_debe"},
+  {icon = "github", icon_pack = "fab", name = "Check out some code", link = "https://github.com/suphero"},
+  {icon = "twitter", icon_pack = "fab", name = "DM Me", link = "https://twitter.com/suphero"},
   {icon = "keybase", icon_pack = "fab", name = "Chat on Keybase", link = "https://keybase.io/dedeswim"},
-  {icon = "instagram", icon_pack = "fab", name = "See some pictures of my travels", link = "https://instagram.com/edoardo.debenedetti"},
+  {icon = "instagram", icon_pack = "fab", name = "See some pictures of my travels", link = "https://instagram.com/suphero"},
   # {icon = "skype", icon_pack = "fab", name = "Skype Me", link = ""},
   # {icon = "comments", icon_pack = "fas", name = "Discuss on Forum", link = "https://discourse.gohugo.io"},
   # {icon = "telegram", icon_pack = "fab", name = "Telegram Me", link = "https://telegram.me/@Telegram"},
@@ -126,7 +126,7 @@ contact_links = [
 sharing_image = "desert.jpg"
 
 # Twitter username (without @). Used when a visitor shares your site on Twitter.
-twitter = "edoardo_debe"
+twitter = "suphero"
 
 ############################
 ## Regional Settings

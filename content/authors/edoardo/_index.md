@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Edoardo Debenedetti
+name: Harun Sokullu
 
 # Username (this should match the folder name)
 authors:
@@ -44,10 +44,10 @@ education:
 social:
 - icon: github
   icon_pack: fab
-  link: https://github.com/dedeswim
+  link: https://github.com/suphero
 - icon: linkedin
   icon_pack: fab
-  link: https://linkedin.com/in/edoardo-debenedetti
+  link: https://linkedin.com/in/suphero
 - icon: cv
   icon_pack: ai
   link: /cv.pdf
@@ -56,7 +56,7 @@ social:
   link: '#contact'  # For a direct email link, use "mailto:test@example.org".
 - icon: twitter
   icon_pack: fab
-  link: https://twitter.com/edoardo_debe
+  link: https://twitter.com/suphero
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv
