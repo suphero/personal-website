@@ -132,3 +132,8 @@ static/css/style.css
 
 # VS Code
 .vscode/
+
+# resources
+*.content
+resources/**
+resources/
