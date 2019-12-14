@@ -10,12 +10,12 @@ authors:
 superuser: true
 
 # Role/position
-role: M.Sc. in Computer Science Student
+role: Software Developer
 
 # Organizations/Affiliations
 organizations:
-- name: EPFL
-  url: "https://epfl.ch/en"
+- name: Doğuş Teknoloji
+  url: "https://www.d-teknoloji.com.tr/"
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include Machine Learning and Security.
@@ -73,12 +73,6 @@ user_groups:
 - Visitors
 ---
 
-[Hello there](https://knowyourmeme.com/memes/hello-there)! I am **Edoardo**, a **Computer Science M.Sc.** student at [**EPFL**](https://epfl.ch/en), with a strong focus on **Machine Learning and Security**. I earned a Computer Engineering B.Sc. at [**PoliTo**](https://www.polito.it/), after spending my sophomore year as an exchange student at [Tongji University (**同济大学**)](https://en.tongji.edu.cn/) in Shanghai, supported by [PoliTong](https://www.polito.it/international/offerta/percorsi/politong/index.php?lang=en) scholarship.
+Hello there! I am **Harun**, a **Software Developer** at [**Dogus Technology**](https://www.d-teknoloji.com.tr/), with a strong focus on **Enterprise Software and Open Source**. I earned a Telecommunication Engineering B.Sc. at [**ITU**](http://www.itu.edu.tr/).
 
-I interned at the IT Consulting firm Blue Reply, part of **Reply Group**, working on **RPA** and on the development of a **chatbot**.
-
-I am highly curiosity-driven and my goal is to become an **ML Research Scientist**, after pursuing a Ph.D. in Computer Science.
-
-I attended [**Military Navy College** "F. Morosini"](http://www.marina.difesa.it/EN/training_institute/morosini/Pagine/default.aspx), in Venice. There, I lead sophomores as **prefect** during my final year, and I received **military training** aboard Italian Navy's units and at Italian Navy's Marine Corps.
-
-I am also swimming, sailing, and travel addicted. I like to call myself a *beta tester*.
+I am also playing games, watching series, and loving to reasearch. I like to call myself a *beta tester*.

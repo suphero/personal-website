@@ -27,7 +27,7 @@ date_format = "Jan 2006"
   description = """
 
   Reply is one of the **top IT consulting groups** in Italy, with revenue worth €1B+ in 2018. I have interned at Blue Reply, Reply's company that offers IBM based solutions.
-  
+
   * Created a **chatbot** that answers questions about GDPR law. The bot could help 320M+ EU citizens to easily understand GDPR. Stack: **TypeScript**, **Redis**, **MongoDB**, **IBM Watson Assistant**, **Docker**.
   * Worked on **RPA**, using Automation Anywhere and **Python**. One ofthe bots I created **decreased the duration of a task by 88%**, without requiring human intervention in it.
 
