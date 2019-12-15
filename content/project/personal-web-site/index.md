@@ -22,12 +22,16 @@ image:
 # Custom links (optional).
 #   Uncomment and edit lines below to show custom links.
 links:
+- name: Code
+  url: "https://github.com/suphero/harunsokullucom"
+  icon_pack: fas
+  icon: code
 - name: Site
   url: https://www.harunsokullu.com
-#   icon_pack: fab
-#   icon: twitter
+  icon_pack: fab
+  icon: chrome
 
-url_code: "https://github.com/suphero/harunsokullucom"
+url_code: ""
 url_pdf: ""
 url_slides: ""
 url_video: ""

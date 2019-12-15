@@ -27,7 +27,13 @@ image:
 #   icon_pack: fab
 #   icon: twitter
 
-url_code: "https://github.com/suphero/weglot-api"
+links:
+- name: Code
+  url: "https://github.com/suphero/weglot-api"
+  icon_pack: fas
+  icon: code
+
+url_code: ""
 url_pdf: ""
 url_slides: ""
 url_video: ""

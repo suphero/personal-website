@@ -27,10 +27,10 @@ links:
   icon_pack: fab
   icon: android
 
-# url_code: "https://github.com/dedeswim/ml_project_1"
-# url_pdf: "https://github.com/dedeswim/ml_project_1/blob/master/report.pdf"
-# url_slides: ""
-# url_video: ""
+url_code: ""
+url_pdf: ""
+url_slides: ""
+url_video: ""
 
 # Slides (optional).
 #   Associate this project with Markdown slides.

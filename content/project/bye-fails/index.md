@@ -24,8 +24,8 @@ image:
 links:
 - name: Site
   url: https://byefails.com
-  # icon_pack: fab
-  # icon: twitter
+  icon_pack: fab
+  icon: chrome
 
 url_code: ""
 url_pdf: ""
