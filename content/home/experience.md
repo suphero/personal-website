@@ -18,34 +18,61 @@ date_format = "Jan 2006"
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 [[experience]]
-  title = "Software Engineering Intern"
-  company = "Reply"
-  company_url = "https://reply.com"
-  location = "Turin, Italy"
-  date_start = "2018-11-01"
-  date_end = "2019-03-12"
+  title = "VDF Filo"
+  company = "Doğuş Technology"
+  company_url = "https://www.d-teknoloji.com.tr"
+  date_start = "2018-12-01"
   description = """
 
-  Reply is one of the **top IT consulting groups** in Italy, with revenue worth €1B+ in 2018. I have interned at Blue Reply, Reply's company that offers IBM based solutions.
-
-  * Created a **chatbot** that answers questions about GDPR law. The bot could help 320M+ EU citizens to easily understand GDPR. Stack: **TypeScript**, **Redis**, **MongoDB**, **IBM Watson Assistant**, **Docker**.
-  * Worked on **RPA**, using Automation Anywhere and **Python**. One ofthe bots I created **decreased the duration of a task by 88%**, without requiring human intervention in it.
+  Fleet Management ERP Application of VDF Filo
 
   """
 
 [[experience]]
-  title = "International Manager"
-  company = "JEToP - PoliTo's Junior Enterprise"
-  company_url = "https://jetop.com"
-  location = "Turin, Italy"
-  date_start = "2018-10-01"
-  date_end = "2019-06-30"
+  title = "NTV"
+  company = "Doğuş Technology"
+  company_url = "https://www.d-teknoloji.com.tr"
+  date_start = "2018-09-01"
+  date_end = "2018-12-01"
   description = """
 
-  **Executive Board member** responsible for public relations and partnerships.
+  Websites of Turkish nationwide television news & sport channels ntv.com.tr & ntvspor.net
 
-  * While I was in charge, JEToP signed **8 new strategic partnerships**.
-  * Past positions: **IT Consultant**, **Fundraising & Partnership** Assistant.
+  """
+
+[[experience]]
+  title = "Doğuş Construction"
+  company = "Doğuş Technology"
+  company_url = "https://www.d-teknoloji.com.tr"
+  date_start = "2018-01-01"
+  date_end = "2018-09-01"
+  description = """
+
+  Construction ERP Application
+
+  """
+
+[[experience]]
+  title = "VDF Filo"
+  company = "Doğuş Technology"
+  company_url = "https://www.d-teknoloji.com.tr"
+  date_start = "2016-04-01"
+  date_end = "2018-01-01"
+  description = """
+
+  Fleet Management ERP Application of VDF Filo
+
+  """
+
+[[experience]]
+  title = "Leaseplan"
+  company = "Doğuş Technology"
+  company_url = "https://www.d-teknoloji.com.tr"
+  date_start = "2013-07-01"
+  date_end = "2016-04-01"
+  description = """
+
+  Fleet Management ERP Application of LeasePlan Turkey
 
   """
 

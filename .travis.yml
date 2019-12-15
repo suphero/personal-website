@@ -2,10 +2,10 @@ language: python
 
 env:
   global:
-  - USER="dedeswim"
+  - USER="suphero"
   - EMAIL="deploy@travis-ci.org"
   - DEPLOYMENT_USER="traviscibot"
-  - REPO="dedeswim.github.io"
+  - REPO="suphero.github.io"
   - FILES="./public/*"
   - GH_REPO="github.com/${USER}/${REPO}.git"
 

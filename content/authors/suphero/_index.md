@@ -14,7 +14,7 @@ role: Software Developer
 
 # Organizations/Affiliations
 organizations:
-- name: Doğuş Teknoloji
+- name: Doğuş Technology
   url: "https://www.d-teknoloji.com.tr/"
 
 # Short bio (displayed in user profile at end of posts)
@@ -73,6 +73,6 @@ user_groups:
 - Visitors
 ---
 
-Hello there! I am **Harun**, a **Software Developer** at [**Dogus Technology**](https://www.d-teknoloji.com.tr/), with a strong focus on **Enterprise Software and Open Source**. I earned a Telecommunication Engineering B.Sc. at [**ITU**](http://www.itu.edu.tr/).
+Hello there! I am **Harun**, a **Software Developer** at [**Doğuş Technology**](https://www.d-teknoloji.com.tr/), with a strong focus on **Enterprise Software and Open Source**. I earned a [Telecommunication Engineering](http://www.ehb.itu.edu.tr/) B.Sc. at [**ITU**](http://www.itu.edu.tr/).
 
 I am also playing games, watching series, and loving to reasearch. I like to call myself a *beta tester*.
