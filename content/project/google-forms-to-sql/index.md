@@ -1,22 +1,22 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "Pindery"
-summary: "A cross-platform social network designed to join and organize parties."
+title: "Google Forms to SQL"
+summary: "SQL query generator using Google Forms"
 authors: []
-tags: ["Software"]
+tags: ["Utility"]
 categories: []
-date: 2019-12-02T22:42:00+01:00
+date: 2017-10-01
 
 # Optional external URL for project (replaces project detail page).
-external_link: "https://aeeooto.github.io/pindery"
+external_link: ""
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
 # Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
 image:
   caption: ""
-  focal_point: "Bottom"
+  focal_point: ""
   preview_only: false
 
 # Custom links (optional).
@@ -27,7 +27,7 @@ image:
 #   icon_pack: fab
 #   icon: twitter
 
-url_code: "https://github.com/aeeooto/pindery"
+url_code: "https://github.com/suphero/Google-Forms-to-SQL"
 url_pdf: ""
 url_slides: ""
 url_video: ""
@@ -39,4 +39,3 @@ url_video: ""
 #   Otherwise, set `slides = ""`.
 slides: ""
 ---
-Pindery is a cross-platform social network designed to join and organise parties. Each user will have the possibility to create a new party or join already existing ones nearby.

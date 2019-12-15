@@ -1,12 +1,12 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "Subspace Attack Reproduction"
-summary: "Attempt to reproduce the results obtained in the NeurIPS 2019 paper [Subspace Attack: Exploiting Promising Subspaces for Query-Efficient Black-box Attacks](https://papers.nips.cc/paper/8638-subspace-attack-exploiting-promising-subspaces-for-query-efficient-black-box-attacks)"
+title: "Deployment Script Generator"
+summary: "SQL query generator using Google Spreadsheet"
 authors: []
-tags: ["Machine Learning"]
+tags: ["Utility"]
 categories: []
-date: 2019-12-02T22:55:24+01:00
+date: 2019-12-01
 
 # Optional external URL for project (replaces project detail page).
 external_link: ""
@@ -27,7 +27,7 @@ image:
 #   icon_pack: fab
 #   icon: twitter
 
-url_code: "https://github.com/epfl-ml-reproducers/subspace-attack-reproduction"
+url_code: ""
 url_pdf: ""
 url_slides: ""
 url_video: ""

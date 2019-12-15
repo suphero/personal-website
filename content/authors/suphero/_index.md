@@ -18,24 +18,19 @@ organizations:
   url: "https://www.d-teknoloji.com.tr/"
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include Machine Learning and Security.
+bio: My research interests include Enterprise Software and Open Source.
 
 interests:
+- Enterprise Software
+- Open Source
 - Machine Learning
-- Security
-- Security and Privacy in ML
+- Game Development
 
 education:
   courses:
-  - course: M.Sc. in Computer Science 🇨🇭
-    institution: EPFL - Swiss Federal Institute of Technology, Lausanne, Switzerland
-    year: 2019-2021 (exp.)
-  - course: B.Sc. in Computer Engineering 🇮🇹
-    institution: PoliTo - Turin Polytechic University, Italy
-    year: 2016-2019
-  - course: Exchange Year 🇨🇳
-    institution: Tongji University, Shanghai, China
-    year: 2017-2018
+  - course: B.Sc. in Telecommunication Engineering
+    institution: Istanbul Technical University, Turkey
+    year: 2006-2011
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
@@ -73,6 +68,8 @@ user_groups:
 - Visitors
 ---
 
-Hello there! I am **Harun**, a **Software Developer** at [**Doğuş Technology**](https://www.d-teknoloji.com.tr/), with a strong focus on **Enterprise Software and Open Source**. I earned a [Telecommunication Engineering](http://www.ehb.itu.edu.tr/) B.Sc. at [**ITU**](http://www.itu.edu.tr/).
+Hello there! I am **Harun**, a **Software Developer** at [**Doğuş Technology**](https://www.d-teknoloji.com.tr/), with a strong focus on **Enterprise Software and Open Source**. I earned a [**Telecommunication Engineering**](http://www.ehb.itu.edu.tr/) B.Sc. at [**ITU**](http://www.itu.edu.tr/).
+
+I love to make my life easier by coding.
 
 I am also playing games, watching series, and loving to reasearch. I like to call myself a *beta tester*.
