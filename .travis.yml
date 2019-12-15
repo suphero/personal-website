@@ -5,7 +5,7 @@ env:
   - USER="suphero"
   - EMAIL="deploy@travis-ci.org"
   - DEPLOYMENT_USER="traviscibot"
-  - REPO="suphero.github.io"
+  - REPO="harunsokullucom"
   - FILES="./public/*"
   - GH_REPO="github.com/${USER}/${REPO}.git"
 
