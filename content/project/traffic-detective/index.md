@@ -2,9 +2,9 @@
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
 title: "Traffic Detective"
-summary: "Cross-platform Mobile application to report traffic monsters"
+summary: "Cross-platform Mobile App to report traffic monsters"
 authors: []
-tags: ["Mobile Application"]
+tags: ["Mobile App"]
 categories: []
 date: 2018-11-01
 

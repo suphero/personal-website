@@ -2,9 +2,9 @@
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
 title: "Find Your Recipe"
-summary: "Recipe Finder Mobile Application"
+summary: "Recipe Finder Mobile App"
 authors: []
-tags: ["Mobile Application"]
+tags: ["Mobile App"]
 categories: []
 date: 2011-05-01
 

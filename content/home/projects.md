@@ -30,8 +30,8 @@ subtitle = "(so far)"
     tag = "Utility"
 
   [[content.filter_button]]
-    name = "Mobile Application"
-    tag = "Mobile Application"
+    name = "Mobile App"
+    tag = "Mobile App"
 
   [[content.filter_button]]
     name = "Web Site"
