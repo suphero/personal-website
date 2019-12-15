@@ -5,7 +5,7 @@ headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 50  # Order that this section will appear.
 
-title = "Awards"
+title = "Certificates"
 subtitle = ""
 
 # Date format
@@ -19,13 +19,23 @@ date_format = "2006"
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
 [[item]]
-  organization = "Turin Polytechnic University"
-  organization_url = "https://www.polito.it"
-  title = "PoliTong Scholarship"
-  url = "https://www.polito.it/international/offerta/percorsi/politong/index.php?lang=en"
-  certificate_url = ""
-  date_start = "2017-07-01"
+  organization = "Coursera"
+  organization_url = "https://www.coursera.org/"
+  title = "Leveraging Unstructured Data with Cloud Dataproc on Google Cloud Platform"
+  url = ""
+  certificate_url = "https://www.coursera.org/account/accomplishments/certificate/6ESBDQ8YYNKP"
+  date_start = "2019-08-25"
   date_end = ""
-  description = "Awarded to 11 out of 35 students that participated in the selection. Full scholarship for the one-year exchange in Shanghai."
+  description = ""
+
+[[item]]
+  organization = "Coursera"
+  organization_url = "https://www.coursera.org/"
+  title = "Google Cloud Platform Big Data and Machine Learning Fundamentals"
+  url = ""
+  certificate_url = "https://www.coursera.org/account/accomplishments/certificate/9BGRRZ5NK8GG"
+  date_start = "2019-08-16"
+  date_end = ""
+  description = ""
 
 +++
