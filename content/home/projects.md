@@ -34,7 +34,7 @@ subtitle = "(so far)"
     tag = "mobile"
 
   [[content.filter_button]]
-    name = "Web Site"
+    name = "Website"
     tag = "web"
 
 [design]

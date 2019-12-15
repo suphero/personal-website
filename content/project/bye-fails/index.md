@@ -2,7 +2,7 @@
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
 title: "Bye Fails"
-summary: "Course Helper Web Site"
+summary: "Course Helper Website"
 authors: []
 tags: ["web"]
 categories: []

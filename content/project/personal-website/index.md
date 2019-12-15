@@ -1,8 +1,8 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "Personal Web Site"
-summary: "My Personal Web Site"
+title: "Personal Website"
+summary: "My Personal Website"
 authors: []
 tags: ["web"]
 categories: []
@@ -23,7 +23,7 @@ image:
 #   Uncomment and edit lines below to show custom links.
 links:
 - name: Code
-  url: "https://github.com/suphero/harunsokullucom"
+  url: "https://github.com/suphero/personal-website"
   icon_pack: fas
   icon: code
 - name: Site
