@@ -4,7 +4,7 @@
 title: "Deployment Script Generator"
 summary: "SQL query generator using Google Spreadsheet"
 authors: []
-tags: ["Utility"]
+tags: ["util"]
 categories: []
 date: 2019-12-01
 

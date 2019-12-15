@@ -4,7 +4,7 @@
 title: "Weglot API"
 summary: "Replicate of Weglot API"
 authors: []
-tags: ["Utility"]
+tags: ["util"]
 categories: []
 date: 2019-09-01
 

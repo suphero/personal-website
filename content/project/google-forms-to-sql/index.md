@@ -4,7 +4,7 @@
 title: "Google Forms to SQL"
 summary: "SQL query generator using Google Forms"
 authors: []
-tags: ["Utility"]
+tags: ["util"]
 categories: []
 date: 2017-10-01
 

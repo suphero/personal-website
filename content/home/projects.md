@@ -27,15 +27,15 @@ subtitle = "(so far)"
 
   [[content.filter_button]]
     name = "Utility"
-    tag = "Utility"
+    tag = "util"
 
   [[content.filter_button]]
     name = "Mobile App"
-    tag = "Mobile App"
+    tag = "mobile"
 
   [[content.filter_button]]
     name = "Web Site"
-    tag = "Web Site"
+    tag = "web"
 
 [design]
   # Choose how many columns the section has. Valid values: 1 or 2.

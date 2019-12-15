@@ -4,7 +4,7 @@
 title: "Personal Web Site"
 summary: "My Personal Web Site"
 authors: []
-tags: ["Web Site"]
+tags: ["web"]
 categories: []
 date: 2019-08-01
 

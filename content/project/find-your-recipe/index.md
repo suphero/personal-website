@@ -4,7 +4,7 @@
 title: "Find Your Recipe"
 summary: "Recipe Finder Mobile App"
 authors: []
-tags: ["Mobile App"]
+tags: ["mobile"]
 categories: []
 date: 2011-05-01
 

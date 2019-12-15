@@ -4,7 +4,7 @@
 title: "Udemy Google Spreadsheet Addon"
 summary: "Udemy Wishlist and Subscription manager on Google Spreadsheet"
 authors: []
-tags: ["Utility"]
+tags: ["util"]
 categories: []
 date: 2018-09-01
 

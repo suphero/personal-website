@@ -4,7 +4,7 @@
 title: "Traffic Detective"
 summary: "Cross-platform Mobile App to report traffic monsters"
 authors: []
-tags: ["Mobile App"]
+tags: ["mobile"]
 categories: []
 date: 2018-11-01
 

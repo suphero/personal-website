@@ -4,7 +4,7 @@
 title: "Speed Corridor"
 summary: "Highway Speed Corridor search and toll booth duration of transition assistant"
 authors: []
-tags: ["Mobile App"]
+tags: ["mobile"]
 categories: []
 date: 2017-08-01
 

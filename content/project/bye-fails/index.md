@@ -4,7 +4,7 @@
 title: "Bye Fails"
 summary: "Course Helper Web Site"
 authors: []
-tags: ["Web Site"]
+tags: ["web"]
 categories: []
 date: 2019-07-01
 

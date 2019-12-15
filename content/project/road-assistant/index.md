@@ -4,7 +4,7 @@
 title: "Road Assistant"
 summary: "Microsoft New Technologies Hackathon participation project"
 authors: []
-tags: ["Utility"]
+tags: ["util"]
 categories: []
 date: 2017-12-01
 

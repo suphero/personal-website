@@ -4,7 +4,7 @@
 title: "Hotel OCR"
 summary: "OpenCV based Identity Scanner"
 authors: []
-tags: ["Utility"]
+tags: ["util"]
 categories: []
 date: 2017-11-01
 

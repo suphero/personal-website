@@ -4,7 +4,7 @@
 title: "IPTV"
 summary: "Free IPTV"
 authors: []
-tags: ["Utility"]
+tags: ["util"]
 categories: []
 date: 2019-06-01
 

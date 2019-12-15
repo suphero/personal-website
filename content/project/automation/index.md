@@ -4,7 +4,7 @@
 title: "Automation"
 summary: "Katalon Automation Recorder Cases"
 authors: []
-tags: ["Utility"]
+tags: ["util"]
 categories: []
 date: 2018-05-01
 

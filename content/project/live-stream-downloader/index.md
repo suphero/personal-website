@@ -4,7 +4,7 @@
 title: "Live Stream Downloader"
 summary: "Live Stream Video Downloader"
 authors: []
-tags: ["Utility"]
+tags: ["util"]
 categories: []
 date: 2017-01-01
 
