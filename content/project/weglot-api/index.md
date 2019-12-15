@@ -1,12 +1,12 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "Bye Fails"
-summary: "Course Helper Web Site"
+title: "Weglot API"
+summary: "Replicate of Weglot API"
 authors: []
-tags: ["Web Site"]
+tags: ["Utility"]
 categories: []
-date: 2019-07-01
+date: 2019-09-01
 
 # Optional external URL for project (replaces project detail page).
 external_link: ""
@@ -21,11 +21,11 @@ image:
 
 # Custom links (optional).
 #   Uncomment and edit lines below to show custom links.
-links:
-- name: Site
-  url: https://byefails.com
-  # icon_pack: fab
-  # icon: twitter
+# links:
+# - name: Follow
+#   url: https://twitter.com
+#   icon_pack: fab
+#   icon: twitter
 
 url_code: ""
 url_pdf: ""
