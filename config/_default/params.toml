@@ -259,4 +259,4 @@ plugins_js  = []
 ############################
 [marketing]
   google_analytics = "UA-59701650-1"
-  google_tag_manager = ""
+  google_tag_manager = "GTM-TGFXF53"
