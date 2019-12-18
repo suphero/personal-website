@@ -22,6 +22,10 @@ image:
 # Custom links (optional).
 #   Uncomment and edit lines below to show custom links.
 links:
+- name: API
+  url: "https://github.com/suphero/byefails-api"
+  icon_pack: fas
+  icon: code
 - name: Site
   url: https://byefails.com
   icon_pack: fab
