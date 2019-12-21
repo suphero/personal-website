@@ -22,6 +22,10 @@ image:
 # Custom links (optional).
 #   Uncomment and edit lines below to show custom links.
 links:
+- name: API
+  url: "https://github.com/suphero/traffic-detective-api"
+  icon_pack: fas
+  icon: code
 - name: Android
   url: https://play.google.com/store/apps/details?id=com.harunsokullu.trafficdetective
   icon_pack: fab
