@@ -27,7 +27,7 @@ links:
   icon_pack: fas
   icon: code
 - name: Site
-  url: https://www.harunsokullu.com
+  url: https://harunsokullu.com
   icon_pack: fab
   icon: chrome
 

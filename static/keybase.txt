@@ -4,7 +4,7 @@ https://keybase.io/suphero
 
 I hereby claim:
 
-  * I am an admin of https://www.harunsokullu.com
+  * I am an admin of https://harunsokullu.com
   * I am suphero (https://keybase.io/suphero) on keybase.
   * I have a public key ASB1HjMzGYw-plLXEDawm0hWTKptw7xCqNnDRcHC3zRNhwo
 
@@ -27,7 +27,7 @@ To do so, I am signing this object:
     },
     "service": {
       "entropy": "5cYxqcX80GNTDlrVweUkkKyq",
-      "hostname": "www.harunsokullu.com",
+      "hostname": "harunsokullu.com",
       "protocol": "https:"
     },
     "type": "web_service_binding",
