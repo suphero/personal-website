@@ -26,6 +26,10 @@ links:
   url: "https://github.com/suphero/traffic-detective-api"
   icon_pack: fas
   icon: code
+- name: Mobile
+  url: "https://github.com/suphero/traffic-detective-mobile"
+  icon_pack: fas
+  icon: code
 - name: Android
   url: https://play.google.com/store/apps/details?id=com.harunsokullu.trafficdetective
   icon_pack: fab
