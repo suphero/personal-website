@@ -9,10 +9,11 @@
   url = "https://datastudio.google.com/s/vaXNAo7xk84"
   weight = 5
 
-# [[main]]
-#   name = "Home"
-#   url = "#home"
-#   weight = 10
+[[main]]
+  name = "Home"
+  pre = "<i class='fa fa-home'></i>"
+  url = "#"
+  weight = 10
 
 [[main]]
   name = "Experience"
