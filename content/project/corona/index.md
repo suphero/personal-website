@@ -1,15 +1,15 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "Curriculum Vitae"
-summary: "LaTeX based curriculum vitae project"
+title: "Corona Report"
+summary: "COVID-19 - Google Data Studio Report Based on [Worldometers WebSite](https://www.worldometers.info/coronavirus/)"
 authors: []
 tags: ["util"]
 categories: []
-date: 2017-10-01
+date: 2020-02-01
 
 # Optional external URL for project (replaces project detail page).
-external_link: ""
+external_link: "https://datastudio.google.com/s/vaXNAo7xk84"
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
@@ -28,14 +28,10 @@ image:
 #   icon: twitter
 
 links:
-- name: Code
-  url: "https://github.com/suphero/cv"
+- name: Report
+  url: "https://datastudio.google.com/s/vaXNAo7xk84"
   icon_pack: fas
-  icon: code
-- name: PDF
-  url: "https://github.com/suphero/cv/raw/master/English/Harun%20Sokullu.pdf"
-  icon_pack: fas
-  icon: file-pdf
+  icon: chart-line
 
 url_code: ""
 url_pdf: ""

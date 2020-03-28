@@ -23,8 +23,7 @@ bio: My research interests include Enterprise Software and Open Source.
 interests:
 - Enterprise Software
 - Open Source
-- Machine Learning
-- Game Development
+- Problem Solving
 
 education:
   courses:
@@ -45,7 +44,7 @@ social:
   link: https://linkedin.com/in/suphero
 - icon: cv
   icon_pack: ai
-  link: /cv.pdf
+  link: https://github.com/suphero/cv/raw/master/English/Harun%20Sokullu.pdf
 - icon: envelope
   icon_pack: fas
   link: '#contact'  # For a direct email link, use "mailto:test@example.org".

@@ -4,9 +4,15 @@
 #   The weight parameter defines the order that the links will appear in.
 
 [[main]]
-  name = "Home"
-  url = "#hero"
-  weight = 10
+  name = "Corona"
+  pre = "<i class='fa fa-chart-line'></i>"
+  url = "https://datastudio.google.com/s/vaXNAo7xk84"
+  weight = 5
+
+# [[main]]
+#   name = "Home"
+#   url = "#home"
+#   weight = 10
 
 [[main]]
   name = "Experience"
@@ -25,7 +31,8 @@
 
 [[main]]
   name = "CV"
-  url = "/cv.pdf"
+  pre = "<i class='fa fa-file-pdf'></i>"
+  url = "https://github.com/suphero/cv/raw/master/English/Harun%20Sokullu.pdf"
   weight = 50
 
 # Link to a PDF of your resume/CV from the menu.
