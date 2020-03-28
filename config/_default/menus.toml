@@ -16,16 +16,19 @@
 
 [[main]]
   name = "Experience"
+  pre = "<i class='fa fa-laptop-code'></i>"
   url = "#experience"
   weight = 20
 
 [[main]]
   name = "Projects"
+  pre = "<i class='fa fa-tasks'></i>"
   url = "#projects"
   weight = 30
 
 [[main]]
   name = "Contact me"
+  pre = "<i class='fa fa-address-card'></i>"
   url = "#contact"
   weight = 40
 
