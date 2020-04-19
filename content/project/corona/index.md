@@ -2,14 +2,14 @@
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
 title: "Corona Report"
-summary: "COVID-19 - Google Data Studio Report Based on [Worldometers WebSite](https://www.worldometers.info/coronavirus/)"
+summary: "COVID-19 - Google Data Studio Report Based on [Worldometers](https://www.worldometers.info/coronavirus/) and [Wikipedia](https://en.wikipedia.org/wiki/2019%E2%80%9320_coronavirus_pandemic)"
 authors: []
 tags: ["util"]
 categories: []
 date: 2020-02-01
 
 # Optional external URL for project (replaces project detail page).
-external_link: "https://datastudio.google.com/s/vaXNAo7xk84"
+external_link: ""
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
@@ -29,9 +29,13 @@ image:
 
 links:
 - name: Report
-  url: "https://datastudio.google.com/s/vaXNAo7xk84"
+  url: "https://bit.ly/coronavirus_gunlukleri"
   icon_pack: fas
   icon: chart-line
+- name: Instagram
+  url: "https://www.instagram.com/coronavirus_gunlukleri"
+  icon_pack: fas
+  icon: instagram
 
 url_code: ""
 url_pdf: ""

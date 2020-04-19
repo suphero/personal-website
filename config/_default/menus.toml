@@ -4,12 +4,6 @@
 #   The weight parameter defines the order that the links will appear in.
 
 [[main]]
-  name = "Corona"
-  pre = "<i class='fa fa-chart-line'></i>"
-  url = "https://datastudio.google.com/s/vaXNAo7xk84"
-  weight = 5
-
-[[main]]
   name = "Home"
   pre = "<i class='fa fa-home'></i>"
   url = "#"
