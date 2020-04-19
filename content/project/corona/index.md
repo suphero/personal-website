@@ -34,7 +34,7 @@ links:
   icon: chart-line
 - name: Instagram
   url: "https://www.instagram.com/coronavirus_gunlukleri"
-  icon_pack: fas
+  icon_pack: fab
   icon: instagram
 
 url_code: ""
