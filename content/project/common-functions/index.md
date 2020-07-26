@@ -1,12 +1,12 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "Bye Fails"
-summary: "Course Helper Website"
+title: "Common Functions"
+summary: "Business independant serverless based online functions for community usage"
 authors: []
-tags: ["web"]
+tags: ["util"]
 categories: []
-date: 2019-07-01
+date: 2020-07-24
 
 # Optional external URL for project (replaces project detail page).
 external_link: ""
@@ -21,15 +21,21 @@ image:
 
 # Custom links (optional).
 #   Uncomment and edit lines below to show custom links.
+# links:
+# - name: Follow
+#   url: https://twitter.com
+#   icon_pack: fab
+#   icon: twitter
+
 links:
-- name: API Source
-  url: "https://github.com/suphero/byefails-api"
+- name: Code
+  url: "https://github.com/CommonFunctions/common-api"
   icon_pack: fas
   icon: code
-- name: Site
-  url: https://byefails.com
-  icon_pack: fab
-  icon: chrome
+- name: Collection
+  url: "https://documenter.getpostman.com/view/2803116/T1DpCxdd"
+  icon_pack: fa
+  icon: object-group
 
 url_code: ""
 url_pdf: ""
