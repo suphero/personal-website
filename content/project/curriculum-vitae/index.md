@@ -33,11 +33,11 @@ links:
   icon_pack: fas
   icon: code
 - name: English
-  url: "https://github.com/suphero/cv/releases/download/1.0.0/HarunSokullu_en.pdf"
+  url: "https://github.com/suphero/cv/releases/latest/download/HarunSokullu_en.pdf"
   icon_pack: fas
   icon: file-pdf
 - name: Turkish
-  url: "https://github.com/suphero/cv/releases/download/1.0.0/HarunSokullu_tr.pdf"
+  url: "https://github.com/suphero/cv/releases/latest/download/HarunSokullu_tr.pdf"
   icon_pack: fas
   icon: file-pdf
 

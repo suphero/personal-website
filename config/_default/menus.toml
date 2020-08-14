@@ -38,15 +38,13 @@
   name = "English"
   parent = "cv"
   identifier = "en"
-  url = "https://github.com/suphero/cv/releases/download/1.0.0/HarunSokullu_en.pdf"
+  url = "https://github.com/suphero/cv/releases/latest/download/HarunSokullu_en.pdf"
 
 [[main]]
   name = "Turkish"
   parent = "cv"
   identifier = "tr"
-  url = "https://github.com/suphero/cv/releases/download/1.0.0/HarunSokullu_tr.pdf"
-
-
+  url = "https://github.com/suphero/cv/releases/latest/download/HarunSokullu_tr.pdf"
 
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
