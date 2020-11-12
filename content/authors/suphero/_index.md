@@ -14,8 +14,8 @@ role: Software Developer
 
 # Organizations/Affiliations
 organizations:
-- name: Doğuş Technology
-  url: "https://www.d-teknoloji.com.tr/"
+- name: Akbank
+  url: "https://www.akbank.com/"
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include Enterprise Software and Open Source.
@@ -67,7 +67,7 @@ user_groups:
 - Visitors
 ---
 
-Hello there! I am **Harun**, a **Software Developer** at [**Doğuş Technology**](https://www.d-teknoloji.com.tr/), with a strong focus on **Enterprise Software and Open Source**. I earned a [**Telecommunication Engineering**](http://www.ehb.itu.edu.tr/) B.Sc. at [**ITU**](http://www.itu.edu.tr/).
+Hello there! I am **Harun**, a **Software Developer** at [**Akbank**](https://www.akbank.com/), with a strong focus on **Enterprise Software and Open Source**. I earned a [**Telecommunication Engineering**](http://www.ehb.itu.edu.tr/) B.Sc. at [**ITU**](http://www.itu.edu.tr/).
 
 I love to make my life easier by coding.
 

@@ -18,10 +18,21 @@ date_format = "Jan 2006"
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 [[experience]]
+  title = "Mobile Search & Chatbot"
+  company = "Akbank"
+  company_url = "https://www.akbank.com"
+  date_start = "2020-11-01"
+  description = """
+
+  Mobile Search & Chatbot of Akbank
+
+  """
+[[experience]]
   title = "VDF Filo"
   company = "Doğuş Technology"
   company_url = "https://www.d-teknoloji.com.tr"
   date_start = "2018-12-01"
+  date_end = "2020-10-27"
   description = """
 
   Fleet Management ERP Application of VDF Filo
