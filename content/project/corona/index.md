@@ -28,10 +28,6 @@ image:
 #   icon: twitter
 
 links:
-- name: Report
-  url: "https://bit.ly/coronavirus_gunlukleri"
-  icon_pack: fas
-  icon: chart-line
 - name: Instagram
   url: "https://www.instagram.com/coronavirus_gunlukleri"
   icon_pack: fab
