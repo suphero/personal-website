@@ -104,7 +104,7 @@ directions = ""
 office_hours = []
 
 # Enter an optional link for booking appointments (e.g. calendly.com).
-appointment_url = "https://calendly.com/suphero"
+appointment_url = ""
 
 # Contact links
 #   Set to `[]` to disable, or comment out unwanted lines with a hash `#`.
@@ -162,7 +162,7 @@ docs_section_pager = true  # Display pager in Docs layout (e.g. tutorials)?
 sharing = true
 
 # Link authors to their profile page? (true/false)
-link_authors = true
+link_authors = false
 
 # Load JS plugins
 #   E.g. To load `/assets/js/custom.js`, set `plugins_js = ["custom"]`.

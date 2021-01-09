@@ -10,7 +10,7 @@ authors:
 superuser: true
 
 # Role/position
-role: Software Developer
+role: Senior Software Developer
 
 # Organizations/Affiliations
 organizations:
@@ -44,7 +44,7 @@ social:
   link: https://linkedin.com/in/suphero
 - icon: cv
   icon_pack: ai
-  link: https://github.com/suphero/cv/raw/master/English/Harun%20Sokullu.pdf
+  link: https://github.com/suphero/cv/releases/latest/download/HarunSokullu_en.pdf
 - icon: envelope
   icon_pack: fas
   link: '#contact'  # For a direct email link, use "mailto:test@example.org".
@@ -67,7 +67,7 @@ user_groups:
 - Visitors
 ---
 
-Hello there! I am **Harun**, a **Software Developer** at [**Akbank**](https://www.akbank.com/), with a strong focus on **Enterprise Software and Open Source**. I earned a [**Telecommunication Engineering**](http://www.ehb.itu.edu.tr/) B.Sc. at [**ITU**](http://www.itu.edu.tr/).
+Hello there! I am **Harun**, a **Senior Software Developer** at [**Akbank**](https://www.akbank.com/), with a strong focus on **Enterprise Software and Open Source**. I earned a [**Telecommunication Engineering**](http://www.ehb.itu.edu.tr/) B.Sc. at [**ITU**](http://www.itu.edu.tr/).
 
 I love to make my life easier by coding.
 
