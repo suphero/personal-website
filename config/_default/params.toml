@@ -115,7 +115,7 @@ contact_links = [
   {icon = "instagram", icon_pack = "fab", name = "See some pictures of my life", link = "https://instagram.com/suphero"},
   # {icon = "skype", icon_pack = "fab", name = "Skype Me", link = ""},
   # {icon = "comments", icon_pack = "fas", name = "Discuss on Forum", link = "https://discourse.gohugo.io"},
-  {icon = "telegram", icon_pack = "fab", name = "Telegram Me", link = "https://t.me/supherooo"},
+  {icon = "telegram", icon_pack = "fab", name = "Telegram Me", link = "https://t.me/supheroo"},
   ]
 
 ############################
