@@ -71,4 +71,4 @@ Hello there! I am **Harun**, a **Senior Software Developer** at [**Akbank**](htt
 
 I love to make my life easier by coding.
 
-I am also playing games, watching series, and loving to reasearch. I like to call myself a *beta tester*.
+I am also playing games, watching series, and loving to research. I like to call myself a *beta tester*.
