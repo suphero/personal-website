@@ -1,10 +1,10 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "Messagine Bot"
-summary: "Business independant serverless based online functions for community usage"
+title: "Messagine"
+summary: "Best chat platform on Telegram"
 authors: []
-tags: ["util"]
+tags: ["social"]
 categories: []
 date: 2021-01-15
 
