@@ -36,6 +36,10 @@ links:
   url: "https://apps.shopify.com/partners/stores-are-smart"
   icon_pack: fa
   icon: code
+- name: Code
+  url: "https://github.com/suphero/smart-stores-web"
+  icon_pack: fas
+  icon: code
 
 url_code: ""
 url_pdf: ""
