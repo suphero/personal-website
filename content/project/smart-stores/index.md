@@ -1,12 +1,12 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "Find Your Recipe"
-summary: "Recipe Finder Mobile App"
+title: "Smart Stores"
+summary: "Helping stores become smarter"
 authors: []
-tags: ["mobile"]
+tags: ["web"]
 categories: []
-date: 2011-05-01
+date: 2021-06-01
 
 # Optional external URL for project (replaces project detail page).
 external_link: ""
@@ -28,10 +28,14 @@ image:
 #   icon: twitter
 
 links:
-- name: Android
-  url: https://play.google.com/store/apps/details?id=com.tarifinibul
+- name: Site
+  url: "https://smart-stores.net"
   icon_pack: fab
-  icon: android
+  icon: chrome
+- name: Applications
+  url: "https://apps.shopify.com/partners/stores-are-smart"
+  icon_pack: fa
+  icon: code
 
 url_code: ""
 url_pdf: ""

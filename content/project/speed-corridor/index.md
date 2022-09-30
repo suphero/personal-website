@@ -21,11 +21,11 @@ image:
 
 # Custom links (optional).
 #   Uncomment and edit lines below to show custom links.
-links:
-- name: Android
-  url: https://play.google.com/store/apps/details?id=com.harunsokullu.speedcorridor
-  icon_pack: fab
-  icon: android
+# links:
+# - name: Android
+#   url: https://play.google.com/store/apps/details?id=com.harunsokullu.speedcorridor
+#   icon_pack: fab
+#   icon: android
 
 url_code: ""
 url_pdf: ""

@@ -1,12 +1,12 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "Find Your Recipe"
-summary: "Recipe Finder Mobile App"
+title: "Smart Forecast"
+summary: "Increase sales by resolving issues that break store standards"
 authors: []
-tags: ["mobile"]
+tags: ["util"]
 categories: []
-date: 2011-05-01
+date: 2022-08-09
 
 # Optional external URL for project (replaces project detail page).
 external_link: ""
@@ -28,10 +28,14 @@ image:
 #   icon: twitter
 
 links:
-- name: Android
-  url: https://play.google.com/store/apps/details?id=com.tarifinibul
-  icon_pack: fab
-  icon: android
+- name: Application
+  url: "https://apps.shopify.com/smart-forecast"
+  icon_pack: fa
+  icon: code
+- name: Documentation
+  url: "https://smart-stores.net/forecast/intro"
+  icon_pack: fa
+  icon: file
 
 url_code: ""
 url_pdf: ""
