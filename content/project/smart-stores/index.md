@@ -6,7 +6,7 @@ summary: "Helping stores become smarter"
 authors: []
 tags: ["web"]
 categories: []
-date: 2021-06-01
+date: 2022-06-01
 
 # Optional external URL for project (replaces project detail page).
 external_link: ""
