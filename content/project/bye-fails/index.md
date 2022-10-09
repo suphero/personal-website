@@ -1,7 +1,7 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "Bye Fails"
+title: "[Archive] Bye Fails"
 summary: "Course Helper Website"
 authors: []
 tags: ["web"]
@@ -26,10 +26,6 @@ links:
   url: "https://github.com/suphero/byefails-api"
   icon_pack: fas
   icon: code
-- name: Site
-  url: https://byefails.com
-  icon_pack: fab
-  icon: chrome
 
 url_code: ""
 url_pdf: ""
