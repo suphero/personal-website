@@ -32,7 +32,6 @@ experience:
   - title: VDF Filo
     company: Doğuş Technology
     company_url: 'https://www.d-teknoloji.com.tr'
-    # company_logo: akbank-logo
     date_start: '2018-12-01'
     date_end: '2020-10-27'
     description: Fleet Management ERP Application of VDF Filo
@@ -53,7 +52,6 @@ experience:
   - title: VDF Filo
     company: Doğuş Technology
     company_url: 'https://www.d-teknoloji.com.tr'
-    # company_logo: vdf-filo-logo.jpeg
     date_start: '2016-04-01'
     date_end: '2018-01-01'
     description: Fleet Management ERP Application of VDF Filo
