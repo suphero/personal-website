@@ -2,7 +2,7 @@
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
 title: "Asgari Ücret Kaç Dolar"
-summary: ""
+summary: "Exchange Rate Relationship with Minimum Wage"
 authors: []
 tags: ["web"]
 categories: []
