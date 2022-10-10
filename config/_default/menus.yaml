@@ -1,0 +1,45 @@
+# Navigation Links
+#   To link a homepage widget, specify the URL as a hash `#` followed by the filename of the
+#     desired widget in your `content/home/` folder.
+#   The weight parameter defines the order that the links will appear in.
+
+main:
+  - name: Home
+    pre: "<i class='fa fa-home'></i> "
+    url: '#about'
+    weight: 10
+  - name: Experience
+    pre: "<i class='fa fa-laptop-code'></i> "
+    url: '#experience'
+    weight: 20
+  - name: Projects
+    pre: "<i class='fa fa-tasks'></i> "
+    url: '#projects'
+    weight: 30
+  - name: Posts
+    pre: "<i class='fa fa-rss'></i> "
+    url: '#posts'
+    weight: 40
+  - name: Contact
+    pre: "<i class='fa fa-address-card'></i> "
+    url: '#contact'
+    weight: 50
+  - name: CV
+    pre: "<i class='fa fa-file-pdf'></i> "
+    identifier: cv
+    url: '#'
+    weight: 60
+  - name: English
+    parent: cv
+    identifier: en
+    url: 'https://github.com/suphero/cv/releases/latest/download/HarunSokullu_en.pdf'
+  - name: Turkish
+    parent: cv
+    identifier: tr
+    url: 'https://github.com/suphero/cv/releases/latest/download/HarunSokullu_tr.pdf'
+
+# Link to a PDF of your resume/CV from the menu.
+# To enable, copy your resume/CV to `static/uploads/resume.pdf` and uncomment the lines below.
+#  - name: CV
+#    url: uploads/resume.pdf
+#    weight: 70
