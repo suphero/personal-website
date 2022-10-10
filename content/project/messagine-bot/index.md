@@ -9,7 +9,7 @@ categories: []
 date: 2021-01-15
 
 # Optional external URL for project (replaces project detail page).
-external_link: ""
+external_link: "https://t.me/MessagineBot"
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
@@ -32,6 +32,10 @@ links:
   url: "https://t.me/MessagineBot"
   icon_pack: fab
   icon: telegram
+- name: Site
+  url: "https://messaginebot.com"
+  icon_pack: fab
+  icon: chrome
 - name: Code
   url: "https://github.com/suphero/messagine-bot"
   icon_pack: fas

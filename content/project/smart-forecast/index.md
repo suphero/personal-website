@@ -9,7 +9,7 @@ categories: []
 date: 2022-08-09
 
 # Optional external URL for project (replaces project detail page).
-external_link: ""
+external_link: "https://apps.shopify.com/smart-forecast"
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
@@ -40,7 +40,7 @@ links:
 url_code: ""
 url_pdf: ""
 url_slides: ""
-url_video: ""
+url_video: "https://www.youtube.com/watch?v=Hb2cI9SfT20"
 
 # Slides (optional).
 #   Associate this project with Markdown slides.
