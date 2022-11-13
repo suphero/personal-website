@@ -21,7 +21,7 @@ marketing:
     description: ''
     twitter: 'suphero'
   analytics:
-    google_analytics: $HUGO_GOOGLE_TRACKING_ID
+    google_analytics: '$HUGO_GOOGLE_TRACKING_ID'
     baidu_tongji: ''
   verification:
     google: ''
