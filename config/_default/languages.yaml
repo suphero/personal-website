@@ -16,7 +16,7 @@ en:
 #  params:
 #    description: Site description in Chinese...
 #  menu:
-#    main:
+#    master:
 #      - name: 传
 #        url: '#about'
 #        weight: 1
