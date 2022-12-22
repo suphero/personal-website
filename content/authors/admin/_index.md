@@ -14,8 +14,8 @@ role: Software Architect
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: Akbank
-    url: https://www.akbank.com
+  - name: Ozan SuperApp
+    url: https://www.ozan.com
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include Enterprise Software and Open Source.
@@ -73,7 +73,7 @@ email: ''
 highlight_name: true
 ---
 
-Hello there! I am **Harun**, a **Software Architect** at [**Akbank**](https://www.akbank.com/), with a strong focus on **Enterprise Software and Open Source**. I earned a [**Telecommunication Engineering**](http://www.ehb.itu.edu.tr/) B.Sc. at [**ITU**](http://www.itu.edu.tr/).
+Hello there! I am **Harun**, a **Senior Software Developer** at [**Ozan SuperApp**](https://www.ozan.com/), with a strong focus on **Enterprise Software and Open Source**. I earned a [**Telecommunication Engineering**](http://www.ehb.itu.edu.tr/) B.Sc. at [**ITU**](http://www.itu.edu.tr/).
 
 I love to make my life easier by coding.
 

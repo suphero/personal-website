@@ -22,12 +22,17 @@ date_format: Jan 2006
 #   Leave `date_end` empty if it's your current employer.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
+  - title: Ozan SuperApp
+    company: Ozan SuperApp
+    company_url: 'https://www.ozan.com'
+    date_start: '2022-12-19'
+    date_end: ''
   - title: Mobile Search & Chatbot
     company: Akbank
     company_url: 'https://www.akbank.com'
     company_logo: akbank-logo
     date_start: '2020-11-02'
-    date_end: ''
+    date_end: '2022-12-19'
     description: Mobile Search & Chatbot of Akbank
   - title: VDF Filo
     company: Doğuş Technology
