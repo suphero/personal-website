@@ -1,7 +1,7 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "Live Stream Downloader"
+title: "[Archive] Live Stream Downloader"
 summary: "Live Stream Video Downloader"
 authors: []
 tags: ["util"]
