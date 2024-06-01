@@ -10,11 +10,11 @@ last_name: Sokullu
 superuser: true
 
 # Role/position/tagline
-role: Software Architect
+role: Backend Team Leader
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: Ozan SuperApp
+  - name: Ozan
     url: https://www.ozan.com
 
 # Short bio (displayed in user profile at end of posts)
@@ -73,7 +73,7 @@ email: ''
 highlight_name: true
 ---
 
-Hello there! I am **Harun**, a **Senior Software Developer** at [**Ozan SuperApp**](https://www.ozan.com/), with a strong focus on **Enterprise Software and Open Source**. I earned a [**Telecommunication Engineering**](http://www.ehb.itu.edu.tr/) B.Sc. at [**ITU**](http://www.itu.edu.tr/).
+Hello there! I am **Harun**, a **Backend Team Leader** at [**Ozan**](https://www.ozan.com/), with a strong focus on **Enterprise Software and Open Source**. I earned a [**Telecommunication Engineering**](http://www.ehb.itu.edu.tr/) B.Sc. at [**ITU**](http://www.itu.edu.tr/).
 
 I love to make my life easier by coding.
 
