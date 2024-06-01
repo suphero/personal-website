@@ -10,7 +10,7 @@ last_name: Sokullu
 superuser: true
 
 # Role/position/tagline
-role: Backend Team Leader
+role: Backend Team Lead
 
 # Organizations/Affiliations to show in About widget
 organizations:
@@ -73,7 +73,7 @@ email: ''
 highlight_name: true
 ---
 
-Hello there! I am **Harun**, a **Backend Team Leader** at [**Ozan**](https://www.ozan.com/), with a strong focus on **Enterprise Software and Open Source**. I earned a [**Telecommunication Engineering**](http://www.ehb.itu.edu.tr/) B.Sc. at [**ITU**](http://www.itu.edu.tr/).
+Hello there! I am **Harun**, a **Backend Team Lead** at [**Ozan**](https://www.ozan.com/), with a strong focus on **Enterprise Software and Open Source**. I earned a [**Telecommunication Engineering**](http://www.ehb.itu.edu.tr/) B.Sc. at [**ITU**](http://www.itu.edu.tr/).
 
 I love to make my life easier by coding.
 
