@@ -25,7 +25,6 @@ experience:
   - title: Ozan
     company: Ozan
     company_url: 'https://www.ozan.com'
-    company_logo: ozan-logo
     date_start: '2022-12-19'
     date_end: ''
   - title: Mobile Search & Chatbot
