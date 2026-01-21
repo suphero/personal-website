@@ -10,7 +10,7 @@ name:
   pronouns: he/him
 status:
   icon: "☕️"
-role: Senior AI Research Scientist
+role: Backend Team Lead
 bio: |
   Alex Johnson is a Senior AI Research Scientist at Meta AI. His research
   has been published in top conferences like NeurIPS and ICML, with over
@@ -23,18 +23,14 @@ affiliations:
 
 links:
   - icon: at-symbol
-    url: mailto:alex.johnson@example.com
+    url: harunsokullu@gmail.com
     label: E-mail Me
   - icon: brands/x
-    url: https://x.com/example
+    url: https://x.com/suphero
   - icon: brands/github
-    url: https://github.com/example
+    url: https://github.com/suphero
   - icon: brands/linkedin
-    url: https://www.linkedin.com/in/example/
-  - icon: academicons/google-scholar
-    url: https://scholar.google.com/citations?user=example
-  - icon: academicons/orcid
-    url: https://orcid.org/0000-0002-1825-0097
+    url: https://www.linkedin.com/in/suphero/
 
 interests:
   - Large Language Models
@@ -63,8 +59,8 @@ education:
     end: 2013-05-31
 
 experience:
-  - role: Senior AI Research Scientist
-    org: Meta AI
+  - role: Backend Team Lead
+    org: Ozan Elektronik Para
     start: 2020-01-01
     summary: |
       Leading research on multimodal AI systems. Contributed to Llama 2 and other open-source models.
