@@ -1,6 +1,6 @@
-module github.com/wowchemy/starter-hugo-academic
+module github.com/HugoBlox/kit/templates/academic-cv
 
-go 1.21
+go 1.19
 
 require (
 	github.com/HugoBlox/kit/modules/integrations/netlify v0.0.0-20260102210655-66cba27dc652

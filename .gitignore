@@ -1,16 +1,69 @@
-# Generated files by hugo
-/public/
-/resources/_gen/
-/assets/jsconfig.json
+# ============================================================================
+# Hugo Site .gitignore
+# ============================================================================
+
+# ============================================================================
+# Hugo Build Artifacts
+# ============================================================================
+
+# Generated site output
+public/
+
+# Hugo resources (processed assets)
+resources/
+
+# Hugo build lock
+.hugo_build.lock
+
+# Hugo stats
 hugo_stats.json
 
-# Executable may be added to repository
-hugo.exe
-hugo.darwin
-hugo.linux
+# Auto-generated JS config
+**/assets/jsconfig.json
 
-# Temporary lock file while building
-/.hugo_build.lock
+# ============================================================================
+# Node.js & Package Managers
+# ============================================================================
 
-# Backup folders
-*_backup/
+# Dependencies
+node_modules/
+
+# ============================================================================
+# Environment & Configuration
+# ============================================================================
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# ============================================================================
+# Generated Content
+# ============================================================================
+
+# Pagefind search index
+pagefind/
+static/pagefind/
+
+# ============================================================================
+# Operating System
+# ============================================================================
+
+# macOS
+.DS_Store
+.DS_Store?
+._*
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# ============================================================================
+# Logs & Temporary Files
+# ============================================================================
+
+*.log
+npm-debug.log*

@@ -13,7 +13,7 @@ hugoblox:
   # ────────────────────────────────────────────────────────────────────────────
   identity:
     # Site name - shown in navbar, footer, copyright, and browser title by default
-    name: "Harun Sokullu"
+    name: "Your Name"
     # Legal entity for copyright notices (defaults to name if not set)
     organization: ""
     # Schema.org type for structured data
@@ -21,10 +21,10 @@ hugoblox:
     # Short tagline displayed on your site
     tagline: ""
     # Site meta description for search engines and social sharing
-    description: "Harun Sokullu - Software Engineer & Developer"
+    description: "The highly-customizable Hugo Academic theme powered by HugoBlox Kit. Easily create your personal academic website."
     # Social accounts (used for meta tags like Twitter Cards)
     social:
-      twitter: "suphero"              # Twitter/X handle for Twitter Cards (without @)
+      twitter: "LoreLabs_"              # Twitter/X handle for Twitter Cards (without @)
 
   # ────────────────────────────────────────────────────────────────────────────
   # THEME
@@ -116,7 +116,7 @@ hugoblox:
   # ────────────────────────────────────────────────────────────────────────────
   copyright:
     # Copyright notice - supports {year}, {name}, {license} placeholders
-    notice: "© {year} Harun Sokullu"
+    notice: "© {year} {name}. This work is licensed under {license}"
     license:
       type: cc                          # cc | custom
       allow_derivatives: false
@@ -200,7 +200,7 @@ hugoblox:
   # ────────────────────────────────────────────────────────────────────────────
   analytics:
     google:
-      measurement_id: "G-788E6BRYX5"                # Google Analytics 4: G-XXXXXXXXXX
+      measurement_id: ""                # Google Analytics 4: G-XXXXXXXXXX
     google_tag_manager:
       container_id: ""                  # GTM-XXXXXXX
     plausible:
@@ -231,9 +231,9 @@ hugoblox:
   # Source code repository for "Edit this page" links
   # ────────────────────────────────────────────────────────────────────────────
   repository:
-    enable: true
-    url: "https://github.com/suphero/personal-website"                             # e.g., https://github.com/username/repo
-    branch: master
+    enable: false
+    url: ""                             # e.g., https://github.com/username/repo
+    branch: main
     content_dir: content
 
   # ────────────────────────────────────────────────────────────────────────────
