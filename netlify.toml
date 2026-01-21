@@ -3,8 +3,9 @@
   publish = "public"
 
 [build.environment]
-  HUGO_VERSION = "0.97.3"
+  HUGO_VERSION = "0.154.5"
   HUGO_ENABLEGITINFO = "true"
+  NODE_VERSION = "20"
 
 [context.production.environment]
   HUGO_ENV = "production"
@@ -19,3 +20,10 @@
   package = "netlify-plugin-hugo-cache-resources"
   [plugins.inputs]
     debug = true
+
+# Disable legacy prerendering
+[functions]
+  included_files = ["!node_modules/**"]
+
+[template.environment]
+  NETLIFY_USE_PRERENDER = "false"
