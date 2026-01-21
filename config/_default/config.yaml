@@ -5,6 +5,7 @@
 
 title: Harun Sokullu # Website name
 baseURL: 'https://harunsokullu.com/' # Website URL
+googleAnalytics: 'G-788E6BRYX5'
 
 ############################
 ## LANGUAGE
