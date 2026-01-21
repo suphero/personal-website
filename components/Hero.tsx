@@ -31,16 +31,16 @@ export default function Hero() {
 
           <div className="flex flex-wrap gap-4 justify-center md:justify-start pt-4">
             <Link
-              href="/projects"
+              href="/experience"
               className="px-6 py-3 bg-primary hover:bg-primary/90 text-primary-foreground rounded-lg font-medium transition-colors"
             >
-              View Projects
+              Experience
             </Link>
             <Link
-              href="/experience"
+              href="/projects"
               className="px-6 py-3 border border-border hover:bg-accent rounded-lg font-medium transition-colors text-foreground"
             >
-              Experience
+              View Projects
             </Link>
             <a
               href="https://github.com/suphero/cv/releases/latest/download/HarunSokullu_en.pdf"
