@@ -1,9 +1,10 @@
 module github.com/wowchemy/starter-hugo-academic
 
-go 1.21
+go 1.15
 
 require (
-	github.com/HugoBlox/kit/modules/integrations/netlify v0.0.0-20260102210655-66cba27dc652
-	github.com/HugoBlox/kit/modules/blox v0.0.0-20260115004143-27742d31a056
-	github.com/HugoBlox/kit/modules/slides v0.0.0-20260113153632-aa9edea5df2a
+	github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy-plugin-netlify v1.0.0 // indirect
+	github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy-plugin-netlify-cms v1.0.0 // indirect
+	github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy-plugin-reveal v1.0.0 // indirect
+	github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy/v5 v5.7.1-0.20221002163318-39a618761acc // indirect
 )
