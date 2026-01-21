@@ -13,12 +13,21 @@ export const experiences: Experience[] = [
     title: "Backend Team Lead",
     company: "Ozan Elektronik Para",
     companyUrl: "https://www.ozan.com",
-    dateStart: "2022-12",
+    dateStart: "2023-07",
     current: true,
     description: "Leading backend development team for fintech solutions",
   },
   {
-    title: "Mobile Search & Chatbot Developer",
+    title: "Senior Backend Developer",
+    company: "Ozan Elektronik Para",
+    companyUrl: "https://www.ozan.com",
+    dateStart: "2022-12",
+    dateEnd: "2023-07",
+    description:
+      "Developed and maintained backend services for fintech solutions",
+  },
+  {
+    title: "Software Architect",
     company: "Akbank",
     companyUrl: "https://www.akbank.com",
     dateStart: "2020-11",

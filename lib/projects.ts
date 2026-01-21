@@ -10,31 +10,45 @@ export type Project = {
 
 export const projects: Project[] = [
   {
-    title: "Smart Stores",
-    description: "Helping stores become smarter with various Shopify applications for inventory management, automation, and analytics",
-    tags: ["Web", "Shopify", "E-commerce", "SaaS"],
-    date: "2022-06",
-    link: "https://smart-stores.net",
-    github: "https://github.com/suphero/smart-stores-web",
+    title: "WayOut",
+    description: "Break free from endless scrolling. WayOut is your escape route from screen addiction.",
+    tags: ["Mobile", "Productivity", "Wellness"],
+    date: "2026-01",
+    featured: true,
+  },
+  {
+    title: "Balano",
+    description: "Balance management mobile app for personal finance",
+    tags: ["Mobile", "Finance", "Productivity"],
+    date: "2025-12",
+    featured: true,
+  },
+  {
+    title: "Din Kardeşim",
+    description:
+      "Mobile app for daily Islamic prayers, Quran, and religious content",
+    tags: ["Mobile", "Religion", "Productivity"],
+    date: "2025-11",
     featured: true,
   },
   {
     title: "Smart Forecast",
-    description: "AI-powered demand forecasting application for retail businesses",
+    description:
+      "AI-powered demand forecasting application for retail businesses",
     tags: ["Web", "AI", "Analytics"],
     date: "2022-01",
-    featured: true,
   },
   {
     title: "Traffic Detective",
-    description: "Traffic violation detection and analysis system using computer vision",
+    description:
+      "Traffic violation detection and analysis system using computer vision",
     tags: ["Web", "OpenCV", "Computer Vision"],
     date: "2021-01",
-    featured: true,
   },
   {
     title: "Steam Item Manager",
-    description: "Advanced Steam inventory management tool for traders and collectors",
+    description:
+      "Advanced Steam inventory management tool for traders and collectors",
     tags: ["Desktop", "Gaming", "Tool"],
     date: "2020-01",
   },
@@ -46,13 +60,15 @@ export const projects: Project[] = [
   },
   {
     title: "Porsche Teknik",
-    description: "Service management system for Porsche technical service centers",
+    description:
+      "Service management system for Porsche technical service centers",
     tags: ["Web", "Enterprise", "CRM"],
     date: "2019-01",
   },
   {
     title: "Find Your Recipe",
-    description: "Recipe discovery app that helps you find recipes based on available ingredients",
+    description:
+      "Recipe discovery app that helps you find recipes based on available ingredients",
     tags: ["Mobile", "Web", "Food"],
     date: "2018-01",
     github: "https://github.com/suphero/find-your-recipe",
@@ -71,7 +87,8 @@ export const projects: Project[] = [
   },
   {
     title: "Asgari Ücret (Minimum Wage)",
-    description: "Turkish minimum wage calculator with historical data and comparisons",
+    description:
+      "Turkish minimum wage calculator with historical data and comparisons",
     tags: ["Web", "Tool", "Finance"],
     date: "2019-01",
   },
@@ -116,7 +133,8 @@ export const projects: Project[] = [
   },
   {
     title: "Google Forms to SQL",
-    description: "Tool to export Google Forms responses directly to SQL database",
+    description:
+      "Tool to export Google Forms responses directly to SQL database",
     tags: ["Tool", "Integration", "Database"],
     date: "2017-01",
   },

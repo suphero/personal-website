@@ -2,25 +2,29 @@ import Link from "next/link";
 
 const featuredProjects = [
   {
-    title: "Smart Stores",
-    description: "Helping stores become smarter with Shopify applications",
-    tags: ["Web", "Shopify", "E-commerce"],
-    link: "https://smart-stores.net",
-    github: "https://github.com/suphero/smart-stores-web",
+    title: "WayOut",
+    description: "Break free from endless scrolling. WayOut is your escape route from screen addiction.",
+    tags: ["Mobile", "Productivity", "Wellness"],
+    date: "2026-01",
+    featured: true,
+    link: "/projects",
   },
   {
-    title: "Traffic Detective",
-    description: "Traffic violation detection and analysis system",
-    tags: ["Web", "OpenCV", "Computer Vision"],
+    title: "Balano",
+    description: "Balance management mobile app for personal finance",
+    tags: ["Mobile", "Finance", "Productivity"],
+    date: "2025-12",
+    featured: true,
     link: "/projects",
-    github: null,
   },
   {
-    title: "Steam Item Manager",
-    description: "Advanced Steam inventory management tool",
-    tags: ["Desktop", "Gaming", "Tool"],
+    title: "Din Kardeşim",
+    description:
+      "Mobile app for daily Islamic prayers, Quran, and religious content",
+    tags: ["Mobile", "Religion", "Productivity"],
+    date: "2025-11",
+    featured: true,
     link: "/projects",
-    github: null,
   },
 ];
 
