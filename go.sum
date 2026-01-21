@@ -1,3 +1,11 @@
+github.com/HugoBlox/kit/modules/analytics v0.3.1 h1:ycPhZARCshIBbad6opbPgj36zvWe4lj5u0LJVcRMyqw=
+github.com/HugoBlox/kit/modules/analytics v0.3.1/go.mod h1:B0DPb/ZHR713/rzAxWoUqOwGP+ZuX2kT8DHkJsgUPa8=
+github.com/HugoBlox/kit/modules/blox v0.0.0-20260115004143-27742d31a056 h1:kSDLLRiRGcMhPBXz/HQqXrOim4SZsM79pM2ezog2aL0=
+github.com/HugoBlox/kit/modules/blox v0.0.0-20260115004143-27742d31a056/go.mod h1:0F2Ss2NeylmaBP7+qx0U6zFPeMZ9NoLbAQakKXDqygo=
+github.com/HugoBlox/kit/modules/integrations/netlify v0.0.0-20260102210655-66cba27dc652 h1:KdTgOy8hzPOUJcMyR6Tp2k3tyaJzoxz2e1zaddcG0uk=
+github.com/HugoBlox/kit/modules/integrations/netlify v0.0.0-20260102210655-66cba27dc652/go.mod h1:UuppRGml2K1EmlDkN+HemycohgZLjOy0QPGYOnoPnY4=
+github.com/HugoBlox/kit/modules/slides v0.0.0-20260113153632-aa9edea5df2a h1:pAmM7/M2gichwWvDNlf3ItReJxkmewP6mEXv1ymJVBU=
+github.com/HugoBlox/kit/modules/slides v0.0.0-20260113153632-aa9edea5df2a/go.mod h1:/XTQAtd2KCiwg/GVMAoSzKPf/DYPVbAAEysmBdWgYu4=
 github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy-core v0.1.0/go.mod h1:kJwI9H8dicHQCnP8G9EvUDI+oNg/yXcGsjGjwjXuM8I=
 github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy-plugin-netlify v1.0.0 h1:blRMoXNtlxnqXlVi4eCdPtTfVpJkH9J1f6tEKDXimCY=
 github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy-plugin-netlify v1.0.0/go.mod h1:s40UgLsWfVyCLQ2F4F3dBcNfZOXcPGld7KxsKhZdzvM=
