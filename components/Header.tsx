@@ -3,8 +3,14 @@
 import Link from "next/link";
 import { useTheme } from "next-themes";
 import { usePathname } from "next/navigation";
-import { Moon, Sun } from "lucide-react";
+import { Moon, Sun, Monitor, Check } from "lucide-react";
 import { useEffect, useState } from "react";
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuTrigger,
+} from "@/components/ui/dropdown-menu";
 
 export default function Header() {
   const { theme, setTheme } = useTheme();
@@ -47,19 +53,41 @@ export default function Header() {
             ))}
           </ul>
 
-          <button
-            onClick={() => setTheme(theme === "light" ? "dark" : "light")}
-            className="p-2 rounded-lg hover:bg-accent transition-colors"
-            aria-label="Toggle theme"
-          >
-            {mounted && (
-              theme === "light" ? (
-                <Moon className="w-5 h-5" />
-              ) : (
-                <Sun className="w-5 h-5" />
-              )
-            )}
-          </button>
+          <DropdownMenu>
+            <DropdownMenuTrigger asChild>
+              <button
+                className="p-2 rounded-lg hover:bg-accent transition-colors"
+                aria-label="Toggle theme"
+              >
+                {mounted && (
+                  theme === "system" ? (
+                    <Monitor className="w-5 h-5" />
+                  ) : theme === "light" ? (
+                    <Sun className="w-5 h-5" />
+                  ) : (
+                    <Moon className="w-5 h-5" />
+                  )
+                )}
+              </button>
+            </DropdownMenuTrigger>
+            <DropdownMenuContent align="end">
+              <DropdownMenuItem onClick={() => setTheme("system")}>
+                <Monitor className="w-4 h-4 mr-2" />
+                System
+                {theme === "system" && <Check className="w-4 h-4 ml-auto" />}
+              </DropdownMenuItem>
+              <DropdownMenuItem onClick={() => setTheme("light")}>
+                <Sun className="w-4 h-4 mr-2" />
+                Light
+                {theme === "light" && <Check className="w-4 h-4 ml-auto" />}
+              </DropdownMenuItem>
+              <DropdownMenuItem onClick={() => setTheme("dark")}>
+                <Moon className="w-4 h-4 mr-2" />
+                Dark
+                {theme === "dark" && <Check className="w-4 h-4 ml-auto" />}
+              </DropdownMenuItem>
+            </DropdownMenuContent>
+          </DropdownMenu>
         </div>
       </nav>
     </header>
