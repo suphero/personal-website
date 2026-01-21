@@ -1,0 +1,15 @@
+{
+  "name": "hugo-blox-academic-cv",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Academic CV with Hugo Blox and Tailwind CSS",
+  "scripts": {
+    "dev": "hugo server --disableFastRender",
+    "build": "hugo --minify"
+  },
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.12",
+    "@tailwindcss/typography": "^0.5.10",
+    "tailwindcss": "^4.1.12"
+  }
+}
