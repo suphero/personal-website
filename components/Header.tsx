@@ -1,8 +1,8 @@
 "use client";
 
-import Link from "next/link";
+import { Link, usePathname } from "@/i18n/routing";
 import { useTheme } from "next-themes";
-import { usePathname } from "next/navigation";
+import { useTranslations } from "next-intl";
 import { Moon, Sun, Monitor, Check } from "lucide-react";
 import { useEffect, useState } from "react";
 import {
@@ -11,22 +11,23 @@ import {
   DropdownMenuItem,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
+import LanguageSwitcher from "@/components/LanguageSwitcher";
 
 export default function Header() {
   const { theme, setTheme } = useTheme();
   const pathname = usePathname();
   const [mounted, setMounted] = useState(false);
+  const t = useTranslations("header");
 
   useEffect(() => {
     setMounted(true);
   }, []);
 
   const navItems = [
-    { href: "/", label: "Home" },
-    { href: "/experience", label: "Experience" },
-    { href: "/projects", label: "Projects" },
-    { href: "/blog", label: "Blog" },
-  ];
+    { href: "/", labelKey: "home" },
+    { href: "/experience", labelKey: "experience" },
+    { href: "/projects", labelKey: "projects" },
+  ] as const;
 
   return (
     <header className="sticky top-0 z-50 w-full border-b border-border bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/80">
@@ -47,17 +48,19 @@ export default function Header() {
                       : "text-muted-foreground"
                   }`}
                 >
-                  {item.label}
+                  {t(item.labelKey)}
                 </Link>
               </li>
             ))}
           </ul>
 
+          <LanguageSwitcher />
+
           <DropdownMenu>
             <DropdownMenuTrigger asChild>
               <button
                 className="p-2 rounded-lg hover:bg-accent transition-colors"
-                aria-label="Toggle theme"
+                aria-label={t("toggleTheme")}
               >
                 {mounted && (
                   theme === "system" ? (
@@ -73,17 +76,17 @@ export default function Header() {
             <DropdownMenuContent align="end">
               <DropdownMenuItem onClick={() => setTheme("system")}>
                 <Monitor className="w-4 h-4 mr-2" />
-                System
+                {t("theme.system")}
                 {theme === "system" && <Check className="w-4 h-4 ml-auto" />}
               </DropdownMenuItem>
               <DropdownMenuItem onClick={() => setTheme("light")}>
                 <Sun className="w-4 h-4 mr-2" />
-                Light
+                {t("theme.light")}
                 {theme === "light" && <Check className="w-4 h-4 ml-auto" />}
               </DropdownMenuItem>
               <DropdownMenuItem onClick={() => setTheme("dark")}>
                 <Moon className="w-4 h-4 mr-2" />
-                Dark
+                {t("theme.dark")}
                 {theme === "dark" && <Check className="w-4 h-4 ml-auto" />}
               </DropdownMenuItem>
             </DropdownMenuContent>

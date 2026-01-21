@@ -1,8 +1,12 @@
+"use client";
+
 import Link from "next/link";
 import { Github, Linkedin, Twitter } from "lucide-react";
+import { useTranslations } from "next-intl";
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
+  const t = useTranslations("footer");
 
   const socialLinks = [
     { name: "GitHub", href: "https://github.com/suphero", icon: Github },
@@ -15,7 +19,7 @@ export default function Footer() {
       <div className="container mx-auto px-4 py-8 max-w-6xl">
         <div className="flex flex-col md:flex-row justify-between items-center gap-4">
           <div className="text-sm text-muted-foreground">
-            © {currentYear} Harun Sokullu. All rights reserved.
+            {t("copyright", { year: currentYear })}
           </div>
 
           <div className="flex gap-6">

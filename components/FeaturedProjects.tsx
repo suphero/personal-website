@@ -1,57 +1,43 @@
-import Link from "next/link";
+"use client";
 
-const featuredProjects = [
-  {
-    title: "WayOut",
-    description: "Break free from endless scrolling. WayOut is your escape route from screen addiction.",
-    tags: ["Mobile", "Productivity", "Wellness"],
-    date: "2026-01",
-    featured: true,
-    link: "/projects",
-  },
-  {
-    title: "Balano",
-    description: "Balance management mobile app for personal finance",
-    tags: ["Mobile", "Finance", "Productivity"],
-    date: "2025-12",
-    featured: true,
-    link: "/projects",
-  },
-  {
-    title: "Din Kardeşim",
-    description: "Mobile app for daily Islamic prayers, Quran, and religious content",
-    tags: ["Mobile", "Religion", "Productivity"],
-    date: "2025-11",
-    featured: true,
-    link: "/projects",
-  },
+import { Link } from "@/i18n/routing";
+import { useTranslations } from "next-intl";
+
+const featuredProjectKeys = [
+  { key: "wayout", tags: ["Mobile", "Productivity", "Wellness"], link: "/projects" },
+  { key: "balano", tags: ["Mobile", "Finance", "Productivity"], link: "/projects" },
+  { key: "dinkardesim", tags: ["Mobile", "Religion", "Productivity"], link: "/projects" },
 ];
 
 export default function FeaturedProjects() {
+  const t = useTranslations();
+
   return (
     <section className="container mx-auto px-4 py-16 max-w-6xl">
       <div className="flex justify-between items-end mb-8">
         <div>
-          <h2 className="text-3xl font-bold mb-2 text-foreground">Featured Projects</h2>
-          <p className="text-muted-foreground">Some of my notable work</p>
+          <h2 className="text-3xl font-bold mb-2 text-foreground">{t("featuredProjects.title")}</h2>
+          <p className="text-muted-foreground">{t("featuredProjects.subtitle")}</p>
         </div>
         <Link
           href="/projects"
           className="text-primary hover:underline font-medium"
         >
-          View all projects →
+          {t("featuredProjects.viewAll")}
         </Link>
       </div>
 
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-        {featuredProjects.map((project) => (
+        {featuredProjectKeys.map((project) => (
           <div
-            key={project.title}
+            key={project.key}
             className="border border-border rounded-lg p-6 hover:shadow-lg transition-shadow bg-card"
           >
-            <h3 className="text-xl font-semibold mb-2 text-foreground">{project.title}</h3>
+            <h3 className="text-xl font-semibold mb-2 text-foreground">
+              {t(`projects.${project.key}.title`)}
+            </h3>
             <p className="text-muted-foreground mb-4 min-h-[3rem]">
-              {project.description}
+              {t(`projects.${project.key}.description`)}
             </p>
             <div className="flex flex-wrap gap-2 mb-4">
               {project.tags.map((tag) => (
@@ -64,14 +50,12 @@ export default function FeaturedProjects() {
               ))}
             </div>
             <div className="flex gap-3">
-              <a
+              <Link
                 href={project.link}
-                target={project.link.startsWith("http") ? "_blank" : undefined}
-                rel={project.link.startsWith("http") ? "noopener noreferrer" : undefined}
                 className="text-primary hover:underline text-sm"
               >
-                View Project
-              </a>
+                {t("featuredProjects.viewProject")}
+              </Link>
             </div>
           </div>
         ))}

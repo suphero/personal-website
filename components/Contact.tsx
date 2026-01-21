@@ -1,12 +1,17 @@
+"use client";
+
 import { Github, Linkedin } from "lucide-react";
+import { useTranslations } from "next-intl";
 
 export default function Contact() {
+  const t = useTranslations("contact");
+
   return (
     <section id="contact" className="container mx-auto px-4 py-16 max-w-6xl">
       <div className="text-center max-w-2xl mx-auto">
-        <h2 className="text-3xl font-bold mb-4 text-foreground">Get In Touch</h2>
+        <h2 className="text-3xl font-bold mb-4 text-foreground">{t("title")}</h2>
         <p className="text-muted-foreground mb-8">
-          Interested in collaborating or have a question? Feel free to reach out!
+          {t("description")}
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <a

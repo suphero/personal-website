@@ -1,0 +1,217 @@
+{
+  "metadata": {
+    "title": "Harun Sokullu - Backend Team Lead",
+    "description": "Professional personal website of Harun Sokullu, Backend Team Lead with 12+ years of experience in Enterprise Software and Open Source."
+  },
+  "header": {
+    "home": "Home",
+    "experience": "Experience",
+    "projects": "Projects",
+    "toggleTheme": "Toggle theme",
+    "theme": {
+      "system": "System",
+      "light": "Light",
+      "dark": "Dark"
+    },
+    "language": "Language",
+    "languages": {
+      "en": "English",
+      "tr": "Türkçe"
+    }
+  },
+  "hero": {
+    "greeting": "Hi, I'm",
+    "name": "Harun Sokullu",
+    "role": "Backend Team Lead at",
+    "company": "Ozan Elektronik Para",
+    "description": "12+ years of professional experience in <strong>Enterprise Software</strong> and <strong>Open Source</strong>. I love to make my life easier by coding.",
+    "experience": "Experience",
+    "viewProjects": "View Projects",
+    "downloadCV": "Download CV",
+    "skills": {
+      "enterprise": "Enterprise Software",
+      "openSource": "Open Source",
+      "problemSolving": "Problem Solving",
+      "backend": "Backend Development"
+    }
+  },
+  "about": {
+    "title": "About Me",
+    "intro": "Hello there! I am <strong>Harun</strong>, a <strong>Backend Team Lead</strong> at <link>Ozan Elektronik Para</link>, with a strong focus on <strong>Enterprise Software and Open Source</strong>. I earned a <strong>Telecommunication Engineering</strong> B.Sc. at <ituLink>Istanbul Technical University</ituLink>.",
+    "experience": "I love to make my life easier by coding. With over 12 years of professional experience, I've worked on various enterprise applications, from fleet management systems to banking applications, and numerous open-source projects.",
+    "hobbies": "I am also into gaming, watching series, and love to research new technologies. I like to call myself a <em>beta tester</em> of life."
+  },
+  "contact": {
+    "title": "Get In Touch",
+    "description": "Interested in collaborating or have a question? Feel free to reach out!"
+  },
+  "featuredProjects": {
+    "title": "Featured Projects",
+    "subtitle": "Some of my notable work",
+    "viewAll": "View all projects →",
+    "viewProject": "View Project"
+  },
+  "footer": {
+    "copyright": "© {year} Harun Sokullu. All rights reserved."
+  },
+  "experiencePage": {
+    "title": "Experience",
+    "description": "My professional journey spanning over 12 years in software development",
+    "present": "Present",
+    "current": "Current",
+    "downloadCV": "Download Full CV"
+  },
+  "projectsPage": {
+    "title": "All Projects",
+    "description": "A collection of {count} projects I've worked on over the years, ranging from enterprise applications to open-source tools.",
+    "featured": "Featured",
+    "viewLive": "View Live →",
+    "github": "GitHub"
+  },
+  "months": {
+    "jan": "Jan",
+    "feb": "Feb",
+    "mar": "Mar",
+    "apr": "Apr",
+    "may": "May",
+    "jun": "Jun",
+    "jul": "Jul",
+    "aug": "Aug",
+    "sep": "Sep",
+    "oct": "Oct",
+    "nov": "Nov",
+    "dec": "Dec"
+  },
+  "experiences": {
+    "ozan_lead": {
+      "title": "Backend Team Lead",
+      "description": "Leading backend development team for fintech solutions"
+    },
+    "ozan_senior": {
+      "title": "Senior Backend Developer",
+      "description": "Developed and maintained backend services for fintech solutions"
+    },
+    "akbank": {
+      "title": "Software Architect",
+      "description": "Developed mobile search functionality and chatbot for Turkey's leading bank"
+    },
+    "dogus_vdf2": {
+      "title": "Senior Software Developer",
+      "description": "Fleet Management ERP Application development"
+    },
+    "dogus_ntv": {
+      "title": "Software Developer",
+      "description": "Worked on websites of Turkish nationwide television news & sport channels ntv.com.tr & ntvspor.net"
+    },
+    "dogus_construction": {
+      "title": "Software Developer",
+      "description": "Construction ERP Application development"
+    },
+    "dogus_vdf1": {
+      "title": "Software Developer",
+      "description": "Fleet Management ERP Application development"
+    },
+    "dogus_leaseplan": {
+      "title": "Junior Software Developer",
+      "description": "Fleet Management ERP Application for LeasePlan Turkey"
+    }
+  },
+  "projects": {
+    "wayout": {
+      "title": "WayOut",
+      "description": "Break free from endless scrolling. WayOut is your escape route from screen addiction."
+    },
+    "balano": {
+      "title": "Balano",
+      "description": "Balance management mobile app for personal finance"
+    },
+    "dinkardesim": {
+      "title": "Din Kardeşim",
+      "description": "Mobile app for daily Islamic prayers, Quran, and religious content"
+    },
+    "smartforecast": {
+      "title": "Smart Forecast",
+      "description": "AI-powered demand forecasting application for retail businesses"
+    },
+    "trafficdetective": {
+      "title": "Traffic Detective",
+      "description": "Traffic violation detection and analysis system using computer vision"
+    },
+    "steamitemmanager": {
+      "title": "Steam Item Manager",
+      "description": "Advanced Steam inventory management tool for traders and collectors"
+    },
+    "speedcorridor": {
+      "title": "Speed Corridor",
+      "description": "Traffic speed monitoring and corridor analysis application"
+    },
+    "porscheteknik": {
+      "title": "Porsche Teknik",
+      "description": "Service management system for Porsche technical service centers"
+    },
+    "findyourrecipe": {
+      "title": "Find Your Recipe",
+      "description": "Recipe discovery app that helps you find recipes based on available ingredients"
+    },
+    "messaginebot": {
+      "title": "Messagine Bot",
+      "description": "Multi-platform messaging bot with automation capabilities"
+    },
+    "coronastats": {
+      "title": "Corona Stats",
+      "description": "COVID-19 statistics tracker and visualization dashboard"
+    },
+    "asgariucret": {
+      "title": "Asgari Ücret (Minimum Wage)",
+      "description": "Turkish minimum wage calculator with historical data and comparisons"
+    },
+    "cvgenerator": {
+      "title": "Curriculum Vitae Generator",
+      "description": "Automated CV generation tool with LaTeX templates"
+    },
+    "personalwebsite": {
+      "title": "Personal Website",
+      "description": "This portfolio website built with Next.js and TypeScript"
+    },
+    "deploymentscript": {
+      "title": "Deployment Script Generator",
+      "description": "Automated deployment script generation for various platforms"
+    },
+    "commonfunctions": {
+      "title": "Common Functions Library",
+      "description": "Collection of reusable utility functions for .NET projects"
+    },
+    "byefails": {
+      "title": "Bye Fails",
+      "description": "Test failure analysis and tracking tool"
+    },
+    "automationsuite": {
+      "title": "Automation Suite",
+      "description": "Collection of automation scripts and tools for daily tasks"
+    },
+    "googleformstosql": {
+      "title": "Google Forms to SQL",
+      "description": "Tool to export Google Forms responses directly to SQL database"
+    },
+    "iptvmanager": {
+      "title": "IPTV Manager",
+      "description": "IPTV playlist manager and player"
+    },
+    "livestreamdownloader": {
+      "title": "Live Stream Downloader",
+      "description": "Tool for downloading and archiving live streams"
+    },
+    "telegramtracker": {
+      "title": "Telegram Tracker",
+      "description": "Telegram channel and group monitoring tool"
+    },
+    "udemyaddon": {
+      "title": "Udemy Google Spreadsheet Add-on",
+      "description": "Google Sheets add-on for tracking Udemy course analytics"
+    },
+    "weglotapi": {
+      "title": "Weglot API Integration",
+      "description": "API wrapper for Weglot translation service"
+    }
+  }
+}

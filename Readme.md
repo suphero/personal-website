@@ -10,7 +10,6 @@ Modern, professional personal website built with Next.js, TypeScript, and Tailwi
 - 🎯 SEO optimized
 - 📊 Project showcase with 20+ projects
 - 💼 Professional experience timeline
-- ✍️ Blog section
 - 🌐 Ready for Netlify deployment
 
 ## Tech Stack
@@ -51,7 +50,6 @@ This site is configured for Netlify deployment:
 
 ```
 ├── app/                # Next.js app directory
-│   ├── blog/          # Blog pages
 │   ├── experience/    # Experience timeline
 │   ├── projects/      # Projects showcase
 │   ├── layout.tsx     # Root layout

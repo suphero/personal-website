@@ -1,0 +1,217 @@
+{
+  "metadata": {
+    "title": "Harun Sokullu - Backend Takım Lideri",
+    "description": "Harun Sokullu'nun profesyonel kişisel web sitesi. Kurumsal Yazılım ve Açık Kaynak alanında 12+ yıllık deneyime sahip Backend Takım Lideri."
+  },
+  "header": {
+    "home": "Ana Sayfa",
+    "experience": "Deneyim",
+    "projects": "Projeler",
+    "toggleTheme": "Tema değiştir",
+    "theme": {
+      "system": "Sistem",
+      "light": "Açık",
+      "dark": "Koyu"
+    },
+    "language": "Dil",
+    "languages": {
+      "en": "English",
+      "tr": "Türkçe"
+    }
+  },
+  "hero": {
+    "greeting": "Merhaba, ben",
+    "name": "Harun Sokullu",
+    "role": "Backend Takım Lideri -",
+    "company": "Ozan Elektronik Para",
+    "description": "<strong>Kurumsal Yazılım</strong> ve <strong>Açık Kaynak</strong> alanında 12+ yıllık profesyonel deneyim. Kodlayarak hayatımı kolaylaştırmayı seviyorum.",
+    "experience": "Deneyim",
+    "viewProjects": "Projeleri Gör",
+    "downloadCV": "CV İndir",
+    "skills": {
+      "enterprise": "Kurumsal Yazılım",
+      "openSource": "Açık Kaynak",
+      "problemSolving": "Problem Çözme",
+      "backend": "Backend Geliştirme"
+    }
+  },
+  "about": {
+    "title": "Hakkımda",
+    "intro": "Merhaba! Ben <strong>Harun</strong>, <link>Ozan Elektronik Para</link>'da <strong>Backend Takım Lideri</strong>yim. <strong>Kurumsal Yazılım ve Açık Kaynak</strong> odaklı çalışıyorum. <ituLink>İstanbul Teknik Üniversitesi</ituLink>'nden <strong>Telekomünikasyon Mühendisliği</strong> lisans derecesi aldım.",
+    "experience": "Kodlayarak hayatımı kolaylaştırmayı seviyorum. 12 yılı aşkın profesyonel deneyimimle, filo yönetim sistemlerinden bankacılık uygulamalarına kadar çeşitli kurumsal uygulamalar ve birçok açık kaynak proje üzerinde çalıştım.",
+    "hobbies": "Ayrıca oyun oynamayı, dizi izlemeyi ve yeni teknolojileri araştırmayı seviyorum. Kendimi hayatın <em>beta test kullanıcısı</em> olarak tanımlamayı seviyorum."
+  },
+  "contact": {
+    "title": "İletişime Geçin",
+    "description": "İş birliği yapmak ister misiniz veya bir sorunuz mu var? Bana ulaşmaktan çekinmeyin!"
+  },
+  "featuredProjects": {
+    "title": "Öne Çıkan Projeler",
+    "subtitle": "Dikkat çeken çalışmalarımdan bazıları",
+    "viewAll": "Tüm projeleri gör →",
+    "viewProject": "Projeyi Gör"
+  },
+  "footer": {
+    "copyright": "© {year} Harun Sokullu. Tüm hakları saklıdır."
+  },
+  "experiencePage": {
+    "title": "Deneyim",
+    "description": "Yazılım geliştirmede 12 yılı aşkın profesyonel yolculuğum",
+    "present": "Devam Ediyor",
+    "current": "Güncel",
+    "downloadCV": "CV İndir"
+  },
+  "projectsPage": {
+    "title": "Tüm Projeler",
+    "description": "Kurumsal uygulamalardan açık kaynak araçlara kadar yıllar içinde üzerinde çalıştığım {count} projenin koleksiyonu.",
+    "featured": "Öne Çıkan",
+    "viewLive": "Canlı Görüntüle →",
+    "github": "GitHub"
+  },
+  "months": {
+    "jan": "Oca",
+    "feb": "Şub",
+    "mar": "Mar",
+    "apr": "Nis",
+    "may": "May",
+    "jun": "Haz",
+    "jul": "Tem",
+    "aug": "Ağu",
+    "sep": "Eyl",
+    "oct": "Eki",
+    "nov": "Kas",
+    "dec": "Ara"
+  },
+  "experiences": {
+    "ozan_lead": {
+      "title": "Backend Takım Lideri",
+      "description": "Fintech çözümleri için backend geliştirme ekibine liderlik etme"
+    },
+    "ozan_senior": {
+      "title": "Kıdemli Backend Geliştirici",
+      "description": "Fintech çözümleri için backend servisleri geliştirme ve bakımı"
+    },
+    "akbank": {
+      "title": "Yazılım Mimarı",
+      "description": "Türkiye'nin önde gelen bankası için mobil arama işlevselliği ve chatbot geliştirme"
+    },
+    "dogus_vdf2": {
+      "title": "Kıdemli Yazılım Geliştirici",
+      "description": "Filo Yönetimi ERP Uygulaması geliştirme"
+    },
+    "dogus_ntv": {
+      "title": "Yazılım Geliştirici",
+      "description": "Türkiye çapında yayın yapan televizyon haber ve spor kanalları ntv.com.tr ve ntvspor.net web siteleri üzerinde çalışma"
+    },
+    "dogus_construction": {
+      "title": "Yazılım Geliştirici",
+      "description": "İnşaat ERP Uygulaması geliştirme"
+    },
+    "dogus_vdf1": {
+      "title": "Yazılım Geliştirici",
+      "description": "Filo Yönetimi ERP Uygulaması geliştirme"
+    },
+    "dogus_leaseplan": {
+      "title": "Junior Yazılım Geliştirici",
+      "description": "LeasePlan Türkiye için Filo Yönetimi ERP Uygulaması"
+    }
+  },
+  "projects": {
+    "wayout": {
+      "title": "WayOut",
+      "description": "Sonsuz kaydırmadan kurtulun. WayOut, ekran bağımlılığından kaçış yolunuz."
+    },
+    "balano": {
+      "title": "Balano",
+      "description": "Kişisel finans için bakiye yönetimi mobil uygulaması"
+    },
+    "dinkardesim": {
+      "title": "Din Kardeşim",
+      "description": "Günlük İslami ibadetler, Kuran ve dini içerik için mobil uygulama"
+    },
+    "smartforecast": {
+      "title": "Smart Forecast",
+      "description": "Perakende işletmeler için yapay zeka destekli talep tahmin uygulaması"
+    },
+    "trafficdetective": {
+      "title": "Traffic Detective",
+      "description": "Bilgisayar görüşü kullanarak trafik ihlali tespit ve analiz sistemi"
+    },
+    "steamitemmanager": {
+      "title": "Steam Item Manager",
+      "description": "Tüccarlar ve koleksiyoncular için gelişmiş Steam envanter yönetim aracı"
+    },
+    "speedcorridor": {
+      "title": "Speed Corridor",
+      "description": "Trafik hız izleme ve koridor analiz uygulaması"
+    },
+    "porscheteknik": {
+      "title": "Porsche Teknik",
+      "description": "Porsche teknik servis merkezleri için servis yönetim sistemi"
+    },
+    "findyourrecipe": {
+      "title": "Find Your Recipe",
+      "description": "Mevcut malzemelere göre tarif bulmanıza yardımcı olan tarif keşif uygulaması"
+    },
+    "messaginebot": {
+      "title": "Messagine Bot",
+      "description": "Otomasyon yeteneklerine sahip çok platformlu mesajlaşma botu"
+    },
+    "coronastats": {
+      "title": "Corona Stats",
+      "description": "COVID-19 istatistik takipçisi ve görselleştirme panosu"
+    },
+    "asgariucret": {
+      "title": "Asgari Ücret",
+      "description": "Tarihsel veriler ve karşılaştırmalarla Türkiye asgari ücret hesaplayıcısı"
+    },
+    "cvgenerator": {
+      "title": "Curriculum Vitae Generator",
+      "description": "LaTeX şablonlarıyla otomatik CV oluşturma aracı"
+    },
+    "personalwebsite": {
+      "title": "Kişisel Web Sitesi",
+      "description": "Next.js ve TypeScript ile oluşturulmuş bu portfolyo web sitesi"
+    },
+    "deploymentscript": {
+      "title": "Deployment Script Generator",
+      "description": "Çeşitli platformlar için otomatik dağıtım betiği oluşturma"
+    },
+    "commonfunctions": {
+      "title": "Common Functions Library",
+      "description": ".NET projeleri için yeniden kullanılabilir yardımcı fonksiyonlar koleksiyonu"
+    },
+    "byefails": {
+      "title": "Bye Fails",
+      "description": "Test hatası analizi ve izleme aracı"
+    },
+    "automationsuite": {
+      "title": "Automation Suite",
+      "description": "Günlük görevler için otomasyon betikleri ve araçları koleksiyonu"
+    },
+    "googleformstosql": {
+      "title": "Google Forms to SQL",
+      "description": "Google Forms yanıtlarını doğrudan SQL veritabanına aktarma aracı"
+    },
+    "iptvmanager": {
+      "title": "IPTV Manager",
+      "description": "IPTV oynatma listesi yöneticisi ve oynatıcı"
+    },
+    "livestreamdownloader": {
+      "title": "Live Stream Downloader",
+      "description": "Canlı yayınları indirme ve arşivleme aracı"
+    },
+    "telegramtracker": {
+      "title": "Telegram Tracker",
+      "description": "Telegram kanal ve grup izleme aracı"
+    },
+    "udemyaddon": {
+      "title": "Udemy Google Spreadsheet Add-on",
+      "description": "Udemy kurs analitiğini takip etmek için Google Sheets eklentisi"
+    },
+    "weglotapi": {
+      "title": "Weglot API Integration",
+      "description": "Weglot çeviri servisi için API sarmalayıcı"
+    }
+  }
+}

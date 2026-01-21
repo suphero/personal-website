@@ -9,7 +9,6 @@ Your new personal website has been created! Here's everything you need to know.
 ✅ **Home Page** with hero section, about, featured projects, and contact
 ✅ **Projects Page** showcasing all 22 projects with filtering
 ✅ **Experience Page** with interactive timeline of your career
-✅ **Blog Section** ready for your articles
 ✅ **Fully Responsive** design that works on all devices
 ✅ **Static Export** configured for Netlify deployment
 ✅ **SEO Optimized** with proper meta tags
@@ -19,7 +18,6 @@ Your new personal website has been created! Here's everything you need to know.
 ```
 website-new/
 ├── app/                    # Next.js app directory
-│   ├── blog/              # Blog pages
 │   ├── experience/        # Experience timeline
 │   ├── projects/          # Projects showcase
 │   ├── layout.tsx         # Root layout with header/footer
@@ -112,13 +110,6 @@ Update links in:
 
 Place project images in `public/projects/` and reference them in your project cards.
 
-### Blog Posts
-
-Blog posts are currently static. To add dynamic blog posts, you can:
-1. Use MDX files in an `app/blog/[slug]` directory
-2. Use a headless CMS like Contentful or Sanity
-3. Fetch from a blog API
-
 ## Deployment to Netlify
 
 ### Option 1: Connect GitHub Repository (Recommended)
@@ -185,7 +176,6 @@ Your old Hugo site is in the `backup` folder. Data has been migrated:
 - ✅ Profile information
 - ✅ Images (avatar and project images)
 - ✅ Social links
-- ✅ Blog post metadata
 
 Once you're happy with the new site, you can:
 1. Update your Netlify site to point to the `website-new` directory
@@ -203,7 +193,6 @@ Once you're happy with the new site, you can:
 2. **Test** locally with `npm run dev`
 3. **Build** with `npm run build` to check for errors
 4. **Deploy** to Netlify
-5. **Add blog posts** if you want to start blogging
-6. **Update regularly** with new projects and experience
+5. **Update regularly** with new projects and experience
 
 Your website is production-ready and can be deployed right now!
