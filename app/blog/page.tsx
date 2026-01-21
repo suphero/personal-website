@@ -17,8 +17,8 @@ export default function BlogPage() {
   return (
     <div className="container mx-auto px-4 py-16 max-w-4xl">
       <div className="mb-12">
-        <h1 className="text-4xl font-bold mb-4">Blog</h1>
-        <p className="text-gray-600 dark:text-gray-400 text-lg">
+        <h1 className="text-4xl font-bold mb-4 text-foreground">Blog</h1>
+        <p className="text-muted-foreground text-lg">
           Thoughts on software development, team leadership, and technology
         </p>
       </div>
@@ -27,27 +27,27 @@ export default function BlogPage() {
         {posts.map((post) => (
           <article
             key={post.slug}
-            className="border border-gray-200 dark:border-gray-800 rounded-lg p-6 hover:shadow-lg transition-shadow"
+            className="border border-border rounded-lg p-6 hover:shadow-lg transition-shadow bg-card"
           >
-            <div className="text-sm text-gray-600 dark:text-gray-400 mb-2">
+            <div className="text-sm text-muted-foreground mb-2">
               {new Date(post.date).toLocaleDateString("en-US", {
                 year: "numeric",
                 month: "long",
                 day: "numeric",
               })}
             </div>
-            <h2 className="text-2xl font-bold mb-2 hover:text-blue-600 dark:hover:text-blue-400 transition-colors">
+            <h2 className="text-2xl font-bold mb-2 text-foreground hover:text-primary transition-colors">
               {post.title}
             </h2>
-            <p className="text-gray-600 dark:text-gray-400 mb-4">{post.description}</p>
-            <span className="text-blue-600 dark:text-blue-400 hover:underline cursor-pointer">
+            <p className="text-muted-foreground mb-4">{post.description}</p>
+            <span className="text-primary hover:underline cursor-pointer">
               Read more →
             </span>
           </article>
         ))}
       </div>
 
-      <div className="mt-12 text-center text-gray-600 dark:text-gray-400">
+      <div className="mt-12 text-center text-muted-foreground">
         <p>More articles coming soon...</p>
       </div>
     </div>

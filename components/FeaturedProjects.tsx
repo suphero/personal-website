@@ -19,8 +19,7 @@ const featuredProjects = [
   },
   {
     title: "Din Kardeşim",
-    description:
-      "Mobile app for daily Islamic prayers, Quran, and religious content",
+    description: "Mobile app for daily Islamic prayers, Quran, and religious content",
     tags: ["Mobile", "Religion", "Productivity"],
     date: "2025-11",
     featured: true,
@@ -33,12 +32,12 @@ export default function FeaturedProjects() {
     <section className="container mx-auto px-4 py-16 max-w-6xl">
       <div className="flex justify-between items-end mb-8">
         <div>
-          <h2 className="text-3xl font-bold mb-2">Featured Projects</h2>
-          <p className="text-gray-600 dark:text-gray-400">Some of my notable work</p>
+          <h2 className="text-3xl font-bold mb-2 text-foreground">Featured Projects</h2>
+          <p className="text-muted-foreground">Some of my notable work</p>
         </div>
         <Link
           href="/projects"
-          className="text-blue-600 dark:text-blue-400 hover:underline font-medium"
+          className="text-primary hover:underline font-medium"
         >
           View all projects →
         </Link>
@@ -48,17 +47,17 @@ export default function FeaturedProjects() {
         {featuredProjects.map((project) => (
           <div
             key={project.title}
-            className="border border-gray-200 dark:border-gray-800 rounded-lg p-6 hover:shadow-lg transition-shadow"
+            className="border border-border rounded-lg p-6 hover:shadow-lg transition-shadow bg-card"
           >
-            <h3 className="text-xl font-semibold mb-2">{project.title}</h3>
-            <p className="text-gray-600 dark:text-gray-400 mb-4 min-h-[3rem]">
+            <h3 className="text-xl font-semibold mb-2 text-foreground">{project.title}</h3>
+            <p className="text-muted-foreground mb-4 min-h-[3rem]">
               {project.description}
             </p>
             <div className="flex flex-wrap gap-2 mb-4">
               {project.tags.map((tag) => (
                 <span
                   key={tag}
-                  className="text-xs px-2 py-1 bg-gray-100 dark:bg-gray-800 rounded"
+                  className="text-xs px-2 py-1 bg-secondary text-secondary-foreground rounded"
                 >
                   {tag}
                 </span>
@@ -69,20 +68,10 @@ export default function FeaturedProjects() {
                 href={project.link}
                 target={project.link.startsWith("http") ? "_blank" : undefined}
                 rel={project.link.startsWith("http") ? "noopener noreferrer" : undefined}
-                className="text-blue-600 dark:text-blue-400 hover:underline text-sm"
+                className="text-primary hover:underline text-sm"
               >
                 View Project
               </a>
-              {project.github && (
-                <a
-                  href={project.github}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400 text-sm"
-                >
-                  GitHub
-                </a>
-              )}
             </div>
           </div>
         ))}
