@@ -5,21 +5,22 @@ name:
   display: Harun Sokullu
   given: Harun
   family: Sokullu
-  alternate: ''  # Example: 王伟
-  pronunciation: ''  # Example: Wáng Wěi
+  alternate: ''
+  pronunciation: ''
   pronouns: he/him
 status:
   icon: "☕️"
 role: Backend Team Lead
 bio: |
-  Alex Johnson is a Senior AI Research Scientist at Meta AI. His research
-  has been published in top conferences like NeurIPS and ICML, with over
-  10,000 citations. Alex is passionate about pushing the boundaries of AI
-  while ensuring ethical development.
+  Hello there! I am **Harun**, a **Backend Team Lead** at [**Ozan**](https://www.ozan.com/), with a strong focus on **Enterprise Software and Open Source**. I earned a [**Telecommunication Engineering**](http://www.ehb.itu.edu.tr/) B.Sc. at [**ITU**](http://www.itu.edu.tr/).
+
+  I love to make my life easier by coding.
+
+  I am also playing games, watching series, and loving to research. I like to call myself a *beta tester*.
 
 affiliations:
-  - name: Meta AI
-    url: https://ai.meta.com/
+  - name: Ozan Elektronik Para
+    url: https://ozan.com/
 
 links:
   - icon: at-symbol
@@ -33,10 +34,9 @@ links:
     url: https://www.linkedin.com/in/suphero/
 
 interests:
-  - Large Language Models
-  - Computer Vision
-  - Reinforcement Learning
-  - AI Ethics
+  - Enterprise Software
+  - Open Source
+  - Problem Solving
 
 education:
   - degree: PhD Computer Science

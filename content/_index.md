@@ -18,7 +18,7 @@ sections:
       # Show a call-to-action button under your biography? (optional)
       button:
         text: Download CV
-        url: uploads/resume.pdf
+        url: https://github.com/suphero/cv/releases/latest/download/HarunSokullu_en.pdf
       headings:
         about: ''
         education: ''
