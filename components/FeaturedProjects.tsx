@@ -2,12 +2,8 @@
 
 import { Link } from "@/i18n/routing";
 import { useTranslations } from "next-intl";
-
-const featuredProjectKeys = [
-  { key: "swipd", tags: ["Mobile", "Shopping", "Affiliate"], link: "/projects" },
-  { key: "wayout", tags: ["Mobile", "Productivity", "Wellness"], link: "/projects" },
-  { key: "balano", tags: ["Mobile", "Finance", "Productivity"], link: "/projects" },
-];
+import { linkConfig } from "@/components/ProjectLinkIcons";
+import { featuredProjects } from "@/lib/projects";
 
 export default function FeaturedProjects() {
   const t = useTranslations();
@@ -28,7 +24,7 @@ export default function FeaturedProjects() {
       </div>
 
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-        {featuredProjectKeys.map((project) => (
+        {featuredProjects.map((project) => (
           <div
             key={project.key}
             className="border border-border rounded-lg p-6 hover:shadow-lg transition-shadow bg-card"
@@ -45,18 +41,30 @@ export default function FeaturedProjects() {
                   key={tag}
                   className="text-xs px-2 py-1 bg-secondary text-secondary-foreground rounded"
                 >
-                  {tag}
+                  {t(`tags.${tag}`)}
                 </span>
               ))}
             </div>
-            <div className="flex gap-3">
-              <Link
-                href={project.link}
-                className="text-primary hover:underline text-sm"
-              >
-                {t("featuredProjects.viewProject")}
-              </Link>
-            </div>
+            {project.links && project.links.length > 0 && (
+              <div className="flex flex-wrap gap-3 text-sm">
+                {project.links.map((link) => {
+                  const config = linkConfig[link.type];
+                  const Icon = config.icon;
+                  return (
+                    <a
+                      key={link.type}
+                      href={link.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-1 text-muted-foreground hover:text-primary transition-colors"
+                    >
+                      <Icon className="w-4 h-4" />
+                      {t(config.labelKey)}
+                    </a>
+                  );
+                })}
+              </div>
+            )}
           </div>
         ))}
       </div>

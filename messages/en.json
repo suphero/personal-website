@@ -65,8 +65,16 @@
     "title": "All Projects",
     "description": "A collection of {count} projects I've worked on over the years, ranging from enterprise applications to open-source tools.",
     "featured": "Featured",
-    "viewLive": "View Live →",
-    "github": "GitHub"
+    "linkWebsite": "Website",
+    "linkIos": "App Store",
+    "linkAndroid": "Play Store",
+    "linkGithub": "GitHub",
+    "linkShopify": "Shopify",
+    "linkTelegram": "Telegram",
+    "activeProjects": "Active Projects",
+    "archivedProjects": "Archived Projects",
+    "showArchived": "Show Archived Projects ({count})",
+    "hideArchived": "Hide Archived Projects"
   },
   "months": {
     "jan": "Jan",
@@ -116,6 +124,48 @@
       "description": "Fleet Management ERP Application for LeasePlan Turkey"
     }
   },
+  "tags": {
+    "mobile": "Mobile",
+    "shopping": "Shopping",
+    "affiliate": "Affiliate",
+    "productivity": "Productivity",
+    "wellness": "Wellness",
+    "finance": "Finance",
+    "religion": "Religion",
+    "web": "Web",
+    "ai": "AI",
+    "analytics": "Analytics",
+    "opencv": "OpenCV",
+    "computerVision": "Computer Vision",
+    "nextjs": "Next.js",
+    "portfolio": "Portfolio",
+    "desktop": "Desktop",
+    "gaming": "Gaming",
+    "tool": "Tool",
+    "enterprise": "Enterprise",
+    "crm": "CRM",
+    "food": "Food",
+    "bot": "Bot",
+    "automation": "Automation",
+    "messaging": "Messaging",
+    "dataViz": "Data Viz",
+    "healthcare": "Healthcare",
+    "latex": "LaTeX",
+    "devops": "DevOps",
+    "library": "Library",
+    "dotnet": ".NET",
+    "openSource": "Open Source",
+    "testing": "Testing",
+    "integration": "Integration",
+    "database": "Database",
+    "media": "Media",
+    "entertainment": "Entertainment",
+    "monitoring": "Monitoring",
+    "addon": "Add-on",
+    "education": "Education",
+    "api": "API",
+    "i18n": "i18n"
+  },
   "projects": {
     "swipd": {
       "title": "Swipd",
@@ -133,8 +183,8 @@
       "title": "Din Kardeşim",
       "description": "Mobile app for daily Islamic prayers, Quran, and religious content"
     },
-    "smartforecast": {
-      "title": "Smart Forecast",
+    "fixit": {
+      "title": "FixIt",
       "description": "AI-powered demand forecasting application for retail businesses"
     },
     "trafficdetective": {
@@ -159,7 +209,7 @@
     },
     "messaginebot": {
       "title": "Messagine Bot",
-      "description": "Multi-platform messaging bot with automation capabilities"
+      "description": "Telegram bot for anonymous messaging with anyone worldwide"
     },
     "coronastats": {
       "title": "Corona Stats",
@@ -170,8 +220,8 @@
       "description": "Turkish minimum wage calculator with historical data and comparisons"
     },
     "cvgenerator": {
-      "title": "Curriculum Vitae Generator",
-      "description": "Automated CV generation tool with LaTeX templates"
+      "title": "Curriculum Vitae",
+      "description": "My personal CV built with LaTeX, continuously deployed via GitHub Actions"
     },
     "personalwebsite": {
       "title": "Personal Website",

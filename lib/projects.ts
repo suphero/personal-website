@@ -1,179 +1,161 @@
-export type Project = {
-  title: string;
-  description: string;
-  tags: string[];
-  date: string;
-  link?: string;
-  github?: string;
-  featured?: boolean;
+export type ProjectLinkType = "website" | "ios" | "android" | "github" | "shopify" | "telegram";
+
+export type ProjectLink = {
+  type: ProjectLinkType;
+  url: string;
 };
 
-export const projects: Project[] = [
+export type ProjectEntry = {
+  key: string;
+  tags: string[];
+  featured?: boolean;
+  archived?: boolean;
+  links?: ProjectLink[];
+};
+
+export const projects: ProjectEntry[] = [
   {
-    title: "Swipd",
-    description:
-      "Swipe-based affiliate shopping platform. Discover products by swiping, save favorites to your wishlist, and never miss a deal.",
-    tags: ["Mobile", "Shopping", "Affiliate"],
-    date: "2026-01",
+    key: "swipd",
+    tags: ["mobile", "shopping", "affiliate"],
     featured: true,
+    links: [
+      { type: "website", url: "https://swipd.app" },
+      { type: "ios", url: "https://apps.apple.com/app/id6748888107" },
+      {
+        type: "android",
+        url: "https://play.google.com/store/apps/details?id=com.suphero.Swipd",
+      },
+    ],
   },
   {
-    title: "WayOut",
-    description:
-      "Break free from endless scrolling. WayOut is your escape route from screen addiction.",
-    tags: ["Mobile", "Productivity", "Wellness"],
-    date: "2026-01",
+    key: "wayout",
+    tags: ["mobile", "productivity", "wellness"],
     featured: true,
+    links: [{ type: "ios", url: "https://apps.apple.com/app/id6756630160" }],
   },
   {
-    title: "Balano",
-    description: "Balance management mobile app for personal finance",
-    tags: ["Mobile", "Finance", "Productivity"],
-    date: "2025-12",
+    key: "balano",
+    tags: ["mobile", "finance", "productivity"],
+    links: [
+      { type: "ios", url: "https://apps.apple.com/app/id6755980039" },
+      {
+        type: "android",
+        url: "https://play.google.com/store/apps/details?id=com.suphero.balano",
+      },
+    ],
+  },
+  {
+    key: "dinkardesim",
+    tags: ["mobile", "religion", "productivity"],
+    links: [
+      { type: "ios", url: "https://apps.apple.com/app/id6755084769" },
+      {
+        type: "android",
+        url: "https://play.google.com/store/apps/details?id=com.suphero.dinkardesim",
+      },
+    ],
+  },
+  {
+    key: "fixit",
+    tags: ["web", "ai", "analytics"],
     featured: true,
+    links: [
+      { type: "shopify", url: "https://apps.shopify.com/smart-forecast" },
+    ],
   },
   {
-    title: "Din Kardeşim",
-    description:
-      "Mobile app for daily Islamic prayers, Quran, and religious content",
-    tags: ["Mobile", "Religion", "Productivity"],
-    date: "2025-11",
+    key: "trafficdetective",
+    tags: ["web", "opencv", "computerVision"],
+    archived: true,
   },
   {
-    title: "Smart Forecast",
-    description:
-      "AI-powered demand forecasting application for retail businesses",
-    tags: ["Web", "AI", "Analytics"],
-    date: "2022-01",
+    key: "personalwebsite",
+    tags: ["web", "nextjs", "portfolio"],
+    links: [
+      { type: "website", url: "https://harunsokullu.com" },
+      { type: "github", url: "https://github.com/suphero/personal-website" },
+    ],
   },
   {
-    title: "Traffic Detective",
-    description:
-      "Traffic violation detection and analysis system using computer vision",
-    tags: ["Web", "OpenCV", "Computer Vision"],
-    date: "2021-01",
+    key: "steamitemmanager",
+    tags: ["desktop", "gaming", "tool"],
+    archived: true,
   },
   {
-    title: "Steam Item Manager",
-    description:
-      "Advanced Steam inventory management tool for traders and collectors",
-    tags: ["Desktop", "Gaming", "Tool"],
-    date: "2020-01",
+    key: "speedcorridor",
+    tags: ["web", "computerVision", "analytics"],
+    archived: true,
   },
   {
-    title: "Speed Corridor",
-    description: "Traffic speed monitoring and corridor analysis application",
-    tags: ["Web", "Computer Vision", "Analytics"],
-    date: "2020-01",
+    key: "porscheteknik",
+    tags: ["web", "enterprise", "crm"],
+    links: [{ type: "website", url: "https://www.porscheteknik.com/" }],
   },
   {
-    title: "Porsche Teknik",
-    description:
-      "Service management system for Porsche technical service centers",
-    tags: ["Web", "Enterprise", "CRM"],
-    date: "2019-01",
+    key: "findyourrecipe",
+    tags: ["mobile", "web", "food"],
+    archived: true,
+    links: [
+      { type: "github", url: "https://github.com/suphero/find-your-recipe" },
+    ],
   },
   {
-    title: "Find Your Recipe",
-    description:
-      "Recipe discovery app that helps you find recipes based on available ingredients",
-    tags: ["Mobile", "Web", "Food"],
-    date: "2018-01",
-    github: "https://github.com/suphero/find-your-recipe",
+    key: "messaginebot",
+    tags: ["bot", "automation", "messaging"],
+    featured: true,
+    links: [{ type: "telegram", url: "https://t.me/MessagineBot" }],
   },
   {
-    title: "Messagine Bot",
-    description: "Multi-platform messaging bot with automation capabilities",
-    tags: ["Bot", "Automation", "Messaging"],
-    date: "2018-01",
+    key: "coronastats",
+    tags: ["web", "dataViz", "healthcare"],
+    archived: true,
+  },
+  { key: "asgariucret", tags: ["web", "tool", "finance"], archived: true },
+  {
+    key: "cvgenerator",
+    tags: ["tool", "latex", "automation"],
+    links: [{ type: "github", url: "https://github.com/suphero/cv" }],
   },
   {
-    title: "Corona Stats",
-    description: "COVID-19 statistics tracker and visualization dashboard",
-    tags: ["Web", "Data Viz", "Healthcare"],
-    date: "2020-03",
+    key: "deploymentscript",
+    tags: ["tool", "devops", "automation"],
+    archived: true,
   },
   {
-    title: "Asgari Ücret (Minimum Wage)",
-    description:
-      "Turkish minimum wage calculator with historical data and comparisons",
-    tags: ["Web", "Tool", "Finance"],
-    date: "2019-01",
+    key: "commonfunctions",
+    tags: ["library", "dotnet", "openSource"],
+    archived: true,
+  },
+  { key: "byefails", tags: ["tool", "testing", "devops"], archived: true },
+  {
+    key: "automationsuite",
+    tags: ["automation", "tool", "productivity"],
+    archived: true,
   },
   {
-    title: "Curriculum Vitae Generator",
-    description: "Automated CV generation tool with LaTeX templates",
-    tags: ["Tool", "LaTeX", "Automation"],
-    date: "2017-01",
-    github: "https://github.com/suphero/cv",
+    key: "googleformstosql",
+    tags: ["tool", "integration", "database"],
+    archived: true,
   },
   {
-    title: "Personal Website",
-    description: "This portfolio website built with Next.js and TypeScript",
-    tags: ["Web", "Next.js", "Portfolio"],
-    date: "2024-01",
-    link: "https://harunsokullu.com",
-    github: "https://github.com/suphero/personal-website",
+    key: "iptvmanager",
+    tags: ["tool", "media", "entertainment"],
+    archived: true,
   },
   {
-    title: "Deployment Script Generator",
-    description: "Automated deployment script generation for various platforms",
-    tags: ["Tool", "DevOps", "Automation"],
-    date: "2018-01",
+    key: "livestreamdownloader",
+    tags: ["tool", "media", "automation"],
+    archived: true,
   },
   {
-    title: "Common Functions Library",
-    description: "Collection of reusable utility functions for .NET projects",
-    tags: ["Library", ".NET", "Open Source"],
-    date: "2016-01",
+    key: "telegramtracker",
+    tags: ["tool", "bot", "monitoring"],
+    archived: true,
   },
-  {
-    title: "Bye Fails",
-    description: "Test failure analysis and tracking tool",
-    tags: ["Tool", "Testing", "DevOps"],
-    date: "2017-01",
-  },
-  {
-    title: "Automation Suite",
-    description: "Collection of automation scripts and tools for daily tasks",
-    tags: ["Automation", "Tool", "Productivity"],
-    date: "2016-01",
-  },
-  {
-    title: "Google Forms to SQL",
-    description:
-      "Tool to export Google Forms responses directly to SQL database",
-    tags: ["Tool", "Integration", "Database"],
-    date: "2017-01",
-  },
-  {
-    title: "IPTV Manager",
-    description: "IPTV playlist manager and player",
-    tags: ["Tool", "Media", "Entertainment"],
-    date: "2019-01",
-  },
-  {
-    title: "Live Stream Downloader",
-    description: "Tool for downloading and archiving live streams",
-    tags: ["Tool", "Media", "Automation"],
-    date: "2019-01",
-  },
-  {
-    title: "Telegram Tracker",
-    description: "Telegram channel and group monitoring tool",
-    tags: ["Tool", "Bot", "Monitoring"],
-    date: "2020-01",
-  },
-  {
-    title: "Udemy Google Spreadsheet Add-on",
-    description: "Google Sheets add-on for tracking Udemy course analytics",
-    tags: ["Add-on", "Tool", "Education"],
-    date: "2018-01",
-  },
-  {
-    title: "Weglot API Integration",
-    description: "API wrapper for Weglot translation service",
-    tags: ["Library", "API", "i18n"],
-    date: "2020-01",
-  },
+  { key: "udemyaddon", tags: ["addon", "tool", "education"], archived: true },
+  { key: "weglotapi", tags: ["library", "api", "i18n"], archived: true },
 ];
+
+export const featuredProjects = projects.filter((p) => p.featured);
+export const activeProjects = projects.filter((p) => !p.archived);
+export const archivedProjects = projects.filter((p) => p.archived);

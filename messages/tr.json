@@ -65,8 +65,16 @@
     "title": "Tüm Projeler",
     "description": "Kurumsal uygulamalardan açık kaynak araçlara kadar yıllar içinde üzerinde çalıştığım {count} projenin koleksiyonu.",
     "featured": "Öne Çıkan",
-    "viewLive": "Canlı Görüntüle →",
-    "github": "GitHub"
+    "linkWebsite": "Web Sitesi",
+    "linkIos": "App Store",
+    "linkAndroid": "Play Store",
+    "linkGithub": "GitHub",
+    "linkShopify": "Shopify",
+    "linkTelegram": "Telegram",
+    "activeProjects": "Aktif Projeler",
+    "archivedProjects": "Arşivlenmiş Projeler",
+    "showArchived": "Arşivlenmiş Projeleri Göster ({count})",
+    "hideArchived": "Arşivlenmiş Projeleri Gizle"
   },
   "months": {
     "jan": "Oca",
@@ -116,6 +124,48 @@
       "description": "LeasePlan Türkiye için Filo Yönetimi ERP Uygulaması"
     }
   },
+  "tags": {
+    "mobile": "Mobil",
+    "shopping": "Alışveriş",
+    "affiliate": "Affiliate",
+    "productivity": "Verimlilik",
+    "wellness": "Sağlık",
+    "finance": "Finans",
+    "religion": "Din",
+    "web": "Web",
+    "ai": "AI",
+    "analytics": "Analitik",
+    "opencv": "OpenCV",
+    "computerVision": "Computer Vision",
+    "nextjs": "Next.js",
+    "portfolio": "Portfolyo",
+    "desktop": "Masaüstü",
+    "gaming": "Oyun",
+    "tool": "Araç",
+    "enterprise": "Kurumsal",
+    "crm": "CRM",
+    "food": "Yemek",
+    "bot": "Bot",
+    "automation": "Otomasyon",
+    "messaging": "Mesajlaşma",
+    "dataViz": "Veri Görselleştirme",
+    "healthcare": "Sağlık",
+    "latex": "LaTeX",
+    "devops": "DevOps",
+    "library": "Kütüphane",
+    "dotnet": ".NET",
+    "openSource": "Açık Kaynak",
+    "testing": "Test",
+    "integration": "Entegrasyon",
+    "database": "Veritabanı",
+    "media": "Medya",
+    "entertainment": "Eğlence",
+    "monitoring": "İzleme",
+    "addon": "Eklenti",
+    "education": "Eğitim",
+    "api": "API",
+    "i18n": "i18n"
+  },
   "projects": {
     "swipd": {
       "title": "Swipd",
@@ -133,8 +183,8 @@
       "title": "Din Kardeşim",
       "description": "Günlük İslami ibadetler, Kuran ve dini içerik için mobil uygulama"
     },
-    "smartforecast": {
-      "title": "Smart Forecast",
+    "fixit": {
+      "title": "FixIt",
       "description": "Perakende işletmeler için yapay zeka destekli talep tahmin uygulaması"
     },
     "trafficdetective": {
@@ -159,7 +209,7 @@
     },
     "messaginebot": {
       "title": "Messagine Bot",
-      "description": "Otomasyon yeteneklerine sahip çok platformlu mesajlaşma botu"
+      "description": "Dünya genelinde anonim mesajlaşma sağlayan Telegram botu"
     },
     "coronastats": {
       "title": "Corona Stats",
@@ -170,8 +220,8 @@
       "description": "Tarihsel veriler ve karşılaştırmalarla Türkiye asgari ücret hesaplayıcısı"
     },
     "cvgenerator": {
-      "title": "Curriculum Vitae Generator",
-      "description": "LaTeX şablonlarıyla otomatik CV oluşturma aracı"
+      "title": "Curriculum Vitae",
+      "description": "LaTeX ile oluşturulmuş, GitHub Actions ile sürekli dağıtılan kişisel CV'm"
     },
     "personalwebsite": {
       "title": "Kişisel Web Sitesi",
