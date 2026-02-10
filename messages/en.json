@@ -117,6 +117,10 @@
     }
   },
   "projects": {
+    "swipd": {
+      "title": "Swipd",
+      "description": "Swipe-based affiliate shopping platform. Discover products by swiping, save favorites to your wishlist, and never miss a deal."
+    },
     "wayout": {
       "title": "WayOut",
       "description": "Break free from endless scrolling. WayOut is your escape route from screen addiction."

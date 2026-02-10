@@ -4,9 +4,9 @@ import { Link } from "@/i18n/routing";
 import { useTranslations } from "next-intl";
 
 const featuredProjectKeys = [
+  { key: "swipd", tags: ["Mobile", "Shopping", "Affiliate"], link: "/projects" },
   { key: "wayout", tags: ["Mobile", "Productivity", "Wellness"], link: "/projects" },
   { key: "balano", tags: ["Mobile", "Finance", "Productivity"], link: "/projects" },
-  { key: "dinkardesim", tags: ["Mobile", "Religion", "Productivity"], link: "/projects" },
 ];
 
 export default function FeaturedProjects() {

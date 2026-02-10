@@ -3,9 +3,10 @@
 import { useTranslations } from "next-intl";
 
 const projectKeys = [
+  { key: "swipd", tags: ["Mobile", "Shopping", "Affiliate"], featured: true },
   { key: "wayout", tags: ["Mobile", "Productivity", "Wellness"], featured: true },
   { key: "balano", tags: ["Mobile", "Finance", "Productivity"], featured: true },
-  { key: "dinkardesim", tags: ["Mobile", "Religion", "Productivity"], featured: true },
+  { key: "dinkardesim", tags: ["Mobile", "Religion", "Productivity"] },
   { key: "smartforecast", tags: ["Web", "AI", "Analytics"] },
   { key: "trafficdetective", tags: ["Web", "OpenCV", "Computer Vision"] },
   { key: "steamitemmanager", tags: ["Desktop", "Gaming", "Tool"] },

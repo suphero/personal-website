@@ -10,8 +10,17 @@ export type Project = {
 
 export const projects: Project[] = [
   {
+    title: "Swipd",
+    description:
+      "Swipe-based affiliate shopping platform. Discover products by swiping, save favorites to your wishlist, and never miss a deal.",
+    tags: ["Mobile", "Shopping", "Affiliate"],
+    date: "2026-01",
+    featured: true,
+  },
+  {
     title: "WayOut",
-    description: "Break free from endless scrolling. WayOut is your escape route from screen addiction.",
+    description:
+      "Break free from endless scrolling. WayOut is your escape route from screen addiction.",
     tags: ["Mobile", "Productivity", "Wellness"],
     date: "2026-01",
     featured: true,
@@ -29,7 +38,6 @@ export const projects: Project[] = [
       "Mobile app for daily Islamic prayers, Quran, and religious content",
     tags: ["Mobile", "Religion", "Productivity"],
     date: "2025-11",
-    featured: true,
   },
   {
     title: "Smart Forecast",

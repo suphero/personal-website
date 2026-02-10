@@ -117,6 +117,10 @@
     }
   },
   "projects": {
+    "swipd": {
+      "title": "Swipd",
+      "description": "Kaydırarak alışveriş yapabileceğin bir platform. Ürünleri keşfet, favorilerine ekle ve fırsatları kaçırma."
+    },
     "wayout": {
       "title": "WayOut",
       "description": "Sonsuz kaydırmadan kurtulun. WayOut, ekran bağımlılığından kaçış yolunuz."
