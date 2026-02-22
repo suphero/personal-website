@@ -165,7 +165,9 @@
     "addon": "Eklenti",
     "education": "Eğitim",
     "api": "API",
-    "i18n": "i18n"
+    "i18n": "i18n",
+    "extension": "Eklenti",
+    "youtube": "YouTube"
   },
   "projects": {
     "silencecut": {

@@ -165,7 +165,9 @@
     "addon": "Add-on",
     "education": "Education",
     "api": "API",
-    "i18n": "i18n"
+    "i18n": "i18n",
+    "extension": "Extension",
+    "youtube": "YouTube"
   },
   "projects": {
     "silencecut": {
