@@ -27,6 +27,14 @@ function ShopifyIcon({ className }: { className?: string }) {
   );
 }
 
+function ChromeIcon({ className }: { className?: string }) {
+  return (
+    <svg className={className} viewBox="0 0 24 24" fill="currentColor">
+      <path d="M12 0C8.21 0 4.831 1.757 2.632 4.501l3.953 6.848A5.454 5.454 0 0 1 12 6.545h10.691A12 12 0 0 0 12 0zM1.931 5.47A11.943 11.943 0 0 0 0 12c0 6.012 4.42 10.991 10.189 11.864l3.953-6.847a5.45 5.45 0 0 1-6.865-2.29zm13.342 2.166a5.446 5.446 0 0 1 1.819 7.592l-3.664 6.345c.236.012.474.018.713.018A12 12 0 0 0 24 12c0-1.525-.284-2.986-.803-4.33zM12 8.009a3.991 3.991 0 1 0 0 7.982 3.991 3.991 0 0 0 0-7.982z" />
+    </svg>
+  );
+}
+
 function TelegramIcon({ className }: { className?: string }) {
   return (
     <svg className={className} viewBox="0 0 24 24" fill="currentColor">
@@ -42,4 +50,5 @@ export const linkConfig: Record<ProjectLinkType, { icon: React.ComponentType<{ c
   github: { icon: Github, labelKey: "projectsPage.linkGithub" },
   shopify: { icon: ShopifyIcon, labelKey: "projectsPage.linkShopify" },
   telegram: { icon: TelegramIcon, labelKey: "projectsPage.linkTelegram" },
+  chrome: { icon: ChromeIcon, labelKey: "projectsPage.linkChrome" },
 };

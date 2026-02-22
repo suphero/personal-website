@@ -71,6 +71,7 @@
     "linkGithub": "GitHub",
     "linkShopify": "Shopify",
     "linkTelegram": "Telegram",
+    "linkChrome": "Chrome Eklentisi",
     "activeProjects": "Aktif Projeler",
     "archivedProjects": "Arşivlenmiş Projeler",
     "showArchived": "Arşivlenmiş Projeleri Göster ({count})",
@@ -167,6 +168,10 @@
     "i18n": "i18n"
   },
   "projects": {
+    "silencecut": {
+      "title": "Silence Cut",
+      "description": "YouTube videolarındaki sessiz kısımları algılayıp otomatik olarak atlayan tarayıcı eklentisi. Ayarlanabilir hassasiyetle sessiz bölümleri atlayarak zaman kazanın."
+    },
     "swipd": {
       "title": "Swipd",
       "description": "Kaydırarak alışveriş yapabileceğin bir platform. Ürünleri keşfet, favorilerine ekle ve fırsatları kaçırma."

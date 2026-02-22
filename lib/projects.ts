@@ -1,4 +1,4 @@
-export type ProjectLinkType = "website" | "ios" | "android" | "github" | "shopify" | "telegram";
+export type ProjectLinkType = "website" | "ios" | "android" | "github" | "shopify" | "telegram" | "chrome";
 
 export type ProjectLink = {
   type: ProjectLinkType;
@@ -14,6 +14,17 @@ export type ProjectEntry = {
 };
 
 export const projects: ProjectEntry[] = [
+  {
+    key: "silencecut",
+    tags: ["extension", "youtube", "productivity"],
+    links: [
+      {
+        type: "chrome",
+        url: "https://chromewebstore.google.com/detail/pegbadeiflnbmappkiaalpibmebgkhdl",
+      },
+      { type: "github", url: "https://github.com/suphero/silence-cut" },
+    ],
+  },
   {
     key: "swipd",
     tags: ["mobile", "shopping", "affiliate"],

@@ -71,6 +71,7 @@
     "linkGithub": "GitHub",
     "linkShopify": "Shopify",
     "linkTelegram": "Telegram",
+    "linkChrome": "Chrome Extension",
     "activeProjects": "Active Projects",
     "archivedProjects": "Archived Projects",
     "showArchived": "Show Archived Projects ({count})",
@@ -167,6 +168,10 @@
     "i18n": "i18n"
   },
   "projects": {
+    "silencecut": {
+      "title": "Silence Cut",
+      "description": "YouTube extension that detects and skips silent parts in videos. Save time by automatically jumping past silence with adjustable sensitivity."
+    },
     "swipd": {
       "title": "Swipd",
       "description": "Swipe-based affiliate shopping platform. Discover products by swiping, save favorites to your wishlist, and never miss a deal."
