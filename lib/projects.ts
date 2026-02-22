@@ -101,6 +101,7 @@ export const projects: ProjectEntry[] = [
     key: "porscheteknik",
     tags: ["web", "enterprise", "crm"],
     links: [{ type: "website", url: "https://www.porscheteknik.com/" }],
+    archived: true,
   },
   {
     key: "findyourrecipe",
