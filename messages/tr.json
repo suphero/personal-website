@@ -190,6 +190,10 @@
       "title": "Din Kardeşim",
       "description": "Günlük İslami ibadetler, Kuran ve dini içerik için mobil uygulama"
     },
+    "focusblocker": {
+      "title": "Focus Blocker",
+      "description": "Dikkat dağıtıcı web sitelerini engelleyip verimliliği artıran tarayıcı eklentisi"
+    },
     "fixit": {
       "title": "FixIt",
       "description": "Perakende işletmeler için yapay zeka destekli talep tahmin uygulaması"

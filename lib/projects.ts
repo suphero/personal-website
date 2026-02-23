@@ -67,6 +67,17 @@ export const projects: ProjectEntry[] = [
     ],
   },
   {
+    key: "focusblocker",
+    tags: ["extension", "tool", "productivity"],
+    links: [
+      {
+        type: "chrome",
+        url: "https://chromewebstore.google.com/detail/hafibifkmnaepcndbbionnhdcgkonmfj",
+      },
+      { type: "github", url: "https://github.com/suphero/FocusBlocker" },
+    ],
+  },
+  {
     key: "fixit",
     tags: ["web", "ai", "analytics"],
     featured: true,
