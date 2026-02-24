@@ -36,6 +36,7 @@ export const projects: ProjectEntry[] = [
         type: "android",
         url: "https://play.google.com/store/apps/details?id=com.suphero.Swipd",
       },
+      { type: "github", url: "https://github.com/swipd-app" },
     ],
   },
   {
@@ -53,6 +54,7 @@ export const projects: ProjectEntry[] = [
         type: "android",
         url: "https://play.google.com/store/apps/details?id=com.suphero.balano",
       },
+      { type: "github", url: "https://github.com/suphero/balano" },
     ],
   },
   {
@@ -64,6 +66,7 @@ export const projects: ProjectEntry[] = [
         type: "android",
         url: "https://play.google.com/store/apps/details?id=com.suphero.dinkardesim",
       },
+      { type: "github", url: "https://github.com/suphero/din-kardesim" },
     ],
   },
   {
@@ -83,6 +86,7 @@ export const projects: ProjectEntry[] = [
     featured: true,
     links: [
       { type: "shopify", url: "https://apps.shopify.com/smart-forecast" },
+      { type: "github", url: "https://github.com/suphero/fixit" },
     ],
   },
   {
@@ -126,7 +130,10 @@ export const projects: ProjectEntry[] = [
     key: "messaginebot",
     tags: ["bot", "automation", "messaging"],
     featured: true,
-    links: [{ type: "telegram", url: "https://t.me/MessagineBot" }],
+    links: [
+      { type: "telegram", url: "https://t.me/MessagineBot" },
+      { type: "github", url: "https://github.com/messagine" },
+    ],
   },
   {
     key: "coronastats",
