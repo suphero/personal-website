@@ -43,7 +43,10 @@ export const projects: ProjectEntry[] = [
     key: "wayout",
     tags: ["mobile", "productivity", "wellness"],
     featured: true,
-    links: [{ type: "ios", url: "https://apps.apple.com/app/id6756630160" }],
+    links: [
+      { type: "website", url: "https://thewayoutapp.com" },
+      { type: "ios", url: "https://apps.apple.com/app/id6756630160" },
+    ],
   },
   {
     key: "balano",
