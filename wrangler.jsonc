@@ -3,6 +3,9 @@
   // Serve that directory as static assets (no Worker script, no OpenNext/SSR).
   "name": "harunsokullu",
   "compatibility_date": "2026-07-04",
+  "observability": {
+    "enabled": true
+  },
   "assets": {
     "directory": "./out",
     "not_found_handling": "404-page"
