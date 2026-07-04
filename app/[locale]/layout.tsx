@@ -8,6 +8,7 @@ import { NextIntlClientProvider } from "next-intl";
 import { getMessages, setRequestLocale } from "next-intl/server";
 import { locales } from "@/i18n/config";
 import { notFound } from "next/navigation";
+import { GoogleAnalytics } from "@next/third-parties/google";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -48,6 +49,7 @@ export default async function LocaleLayout({ children, params }: Props) {
   setRequestLocale(locale);
 
   const messages = await getMessages();
+  const gaId = process.env.NEXT_PUBLIC_GA_ID;
 
   return (
     <html lang={locale} suppressHydrationWarning>
@@ -62,6 +64,7 @@ export default async function LocaleLayout({ children, params }: Props) {
           </ThemeProvider>
         </NextIntlClientProvider>
       </body>
+      {gaId && <GoogleAnalytics gaId={gaId} />}
     </html>
   );
 }
