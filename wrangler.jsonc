@@ -1,0 +1,10 @@
+{
+  // Static site: `next build` with `output: 'export'` emits plain HTML into ./out.
+  // Serve that directory as static assets (no Worker script, no OpenNext/SSR).
+  "name": "harunsokullu",
+  "compatibility_date": "2026-07-04",
+  "assets": {
+    "directory": "./out",
+    "not_found_handling": "404-page"
+  }
+}
