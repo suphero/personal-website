@@ -167,9 +167,14 @@
     "api": "API",
     "i18n": "i18n",
     "extension": "Extension",
-    "youtube": "YouTube"
+    "youtube": "YouTube",
+    "automotive": "Automotive"
   },
   "projects": {
+    "tramerli": {
+      "title": "Tramerli",
+      "description": "Free car valuation tool that estimates a vehicle's current market value from official insurance data, adjusted for its accident (tramer) record."
+    },
     "silencecut": {
       "title": "Silence Cut",
       "description": "YouTube extension that detects and skips silent parts in videos. Save time by automatically jumping past silence with adjustable sensitivity."

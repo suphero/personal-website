@@ -15,6 +15,12 @@ export type ProjectEntry = {
 
 export const projects: ProjectEntry[] = [
   {
+    key: "tramerli",
+    tags: ["web", "automotive", "finance"],
+    featured: true,
+    links: [{ type: "website", url: "https://tramerli.com" }],
+  },
+  {
     key: "silencecut",
     tags: ["extension", "youtube", "productivity"],
     links: [

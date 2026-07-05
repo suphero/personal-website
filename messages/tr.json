@@ -167,9 +167,14 @@
     "api": "API",
     "i18n": "i18n",
     "extension": "Eklenti",
-    "youtube": "YouTube"
+    "youtube": "YouTube",
+    "automotive": "Otomotiv"
   },
   "projects": {
+    "tramerli": {
+      "title": "Tramerli",
+      "description": "Tramer kaydını girip resmî kasko değerinden düşülmüş güncel piyasa değerini saniyeler içinde gösteren ücretsiz araç değerleme aracı."
+    },
     "silencecut": {
       "title": "Silence Cut",
       "description": "YouTube videolarındaki sessiz kısımları algılayıp otomatik olarak atlayan tarayıcı eklentisi. Ayarlanabilir hassasiyetle sessiz bölümleri atlayarak zaman kazanın."
