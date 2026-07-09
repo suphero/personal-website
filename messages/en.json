@@ -92,6 +92,39 @@
       }
     }
   },
+  "awardsPage": {
+    "title": "Awards",
+    "description": "Fellowships, professional memberships, and jury roles.",
+    "present": "Present",
+    "sections": {
+      "fellowship": "Fellowships & Memberships",
+      "jury": "Jury Roles"
+    }
+  },
+  "awards": {
+    "honors": {
+      "raptors_fellow": {
+        "title": "Fellow",
+        "description": "Selectively granted Fellow status within the global developer ecosystem, based on demonstrated technical expertise and contribution."
+      },
+      "ieee_member": {
+        "title": "Professional Member",
+        "description": "Professional membership in IEEE, the world's largest technical professional organization."
+      },
+      "sudo_make_world": {
+        "title": "sudo make world Hackathon",
+        "description": "Official jury member at the 72-hour international online hackathon organized by Hackathon Raptors."
+      },
+      "garage_inference": {
+        "title": "Garage Inference AI Hackathon",
+        "description": "Jury member at an international AI-focused hackathon."
+      },
+      "cursor_alttab": {
+        "title": "Cursor × ALT+TAB Hackathon",
+        "description": "Invited jury member at an in-person hackathon developing public-interest AI solutions using municipal field data."
+      }
+    }
+  },
   "months": {
     "jan": "Jan",
     "feb": "Feb",

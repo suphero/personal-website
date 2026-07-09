@@ -92,6 +92,39 @@
       }
     }
   },
+  "awardsPage": {
+    "title": "Ödüller",
+    "description": "Fellowship'ler, profesyonel üyelikler ve jüri üyelikleri.",
+    "present": "Devam Ediyor",
+    "sections": {
+      "fellowship": "Fellowship & Üyelikler",
+      "jury": "Jüri Üyelikleri"
+    }
+  },
+  "awards": {
+    "honors": {
+      "raptors_fellow": {
+        "title": "Fellow",
+        "description": "Küresel geliştirici ekosisteminde teknik uzmanlık ve katkı temelinde seçici olarak verilen Fellow statüsü."
+      },
+      "ieee_member": {
+        "title": "Profesyonel Üye",
+        "description": "Dünyanın en büyük teknik profesyonel kuruluşu IEEE'de profesyonel üyelik."
+      },
+      "sudo_make_world": {
+        "title": "sudo make world Hackathon",
+        "description": "Hackathon Raptors tarafından düzenlenen 72 saatlik uluslararası online hackathon'da resmî jüri üyeliği."
+      },
+      "garage_inference": {
+        "title": "Garage Inference AI Hackathon",
+        "description": "Yapay zeka odaklı uluslararası bir hackathon'da jüri üyeliği."
+      },
+      "cursor_alttab": {
+        "title": "Cursor × ALT+TAB Hackathon",
+        "description": "Güngören Belediyesi verileriyle kamu yararına yapay zekâ çözümleri geliştirilen yüz yüze hackathon'da davetli jüri üyeliği."
+      }
+    }
+  },
   "months": {
     "jan": "Oca",
     "feb": "Şub",
