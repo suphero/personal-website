@@ -531,13 +531,16 @@ git commit -m "feat: add awards (fellowships & jury roles) page"
 
 ---
 
-### Task 4: Navigasyon — masaüstü linkleri + mobil hamburger menü
+### Task 4: Navigasyon — masaüstü linkleri + mobil alt satır menüsü
 
 **Files:**
 - Modify: `components/Header.tsx` (tam dosya aşağıda)
+- Modify: `messages/tr.json` + `messages/en.json` (kullanılmayan `header.menu` key'ini kaldır)
 
 **Interfaces:**
-- Consumes: `header.{home,experience,projects,media,awards,menu}` çeviri key'leri (media/awards/menu Task 2'de eklendi).
+- Consumes: `header.{home,experience,projects,media,awards}` çeviri key'leri (media/awards Task 2'de eklendi).
+
+**Tasarım:** Mobilde hamburger / açılır menü YOK. Bunun yerine nav linkleri, header'ın altında kalıcı bir **ikinci satır** (alt satır) olarak yatay gösterilir. Masaüstünde bu alt satır gizli (`md:hidden`); linkler üst bardaki mevcut yatay listede kalır (`hidden md:flex`). Aktif-link className'i iki satırda da kullanıldığı için `linkClass` yardımcısına çıkarılır (DRY).
 
 - [ ] **Step 1: `components/Header.tsx`'i aşağıdaki tam içerikle değiştir**
 
@@ -547,7 +550,7 @@ git commit -m "feat: add awards (fellowships & jury roles) page"
 import { Link, usePathname } from "@/i18n/routing";
 import { useTheme } from "next-themes";
 import { useTranslations } from "next-intl";
-import { Moon, Sun, Monitor, Check, Menu, X } from "lucide-react";
+import { Moon, Sun, Monitor, Check } from "lucide-react";
 import { useEffect, useState } from "react";
 import {
   DropdownMenu,
@@ -561,7 +564,6 @@ export default function Header() {
   const { theme, setTheme } = useTheme();
   const pathname = usePathname();
   const [mounted, setMounted] = useState(false);
-  const [mobileOpen, setMobileOpen] = useState(false);
   const t = useTranslations("header");
 
   useEffect(() => {
@@ -576,14 +578,17 @@ export default function Header() {
     { href: "/awards", labelKey: "awards" },
   ] as const;
 
+  const linkClass = (href: string) =>
+    `transition-colors hover:text-primary ${
+      pathname === href
+        ? "text-primary font-semibold"
+        : "text-muted-foreground"
+    }`;
+
   return (
     <header className="sticky top-0 z-50 w-full border-b border-border bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/80">
       <nav className="container mx-auto px-4 h-16 flex items-center justify-between max-w-6xl">
-        <Link
-          href="/"
-          className="font-bold text-xl text-foreground"
-          onClick={() => setMobileOpen(false)}
-        >
+        <Link href="/" className="font-bold text-xl text-foreground">
           Harun Sokullu
         </Link>
 
@@ -591,14 +596,7 @@ export default function Header() {
           <ul className="hidden md:flex items-center gap-6">
             {navItems.map((item) => (
               <li key={item.href}>
-                <Link
-                  href={item.href}
-                  className={`transition-colors hover:text-primary ${
-                    pathname === item.href
-                      ? "text-primary font-semibold"
-                      : "text-muted-foreground"
-                  }`}
-                >
+                <Link href={item.href} className={linkClass(item.href)}>
                   {t(item.labelKey)}
                 </Link>
               </li>
@@ -641,66 +639,48 @@ export default function Header() {
               </DropdownMenuItem>
             </DropdownMenuContent>
           </DropdownMenu>
-
-          <button
-            className="md:hidden p-2 rounded-lg hover:bg-accent transition-colors"
-            aria-label={t("menu")}
-            aria-expanded={mobileOpen}
-            onClick={() => setMobileOpen((v) => !v)}
-          >
-            {mobileOpen ? (
-              <X className="w-5 h-5" />
-            ) : (
-              <Menu className="w-5 h-5" />
-            )}
-          </button>
         </div>
       </nav>
 
-      {mobileOpen && (
-        <ul className="md:hidden border-t border-border bg-background px-4 py-4 space-y-3">
-          {navItems.map((item) => (
-            <li key={item.href}>
-              <Link
-                href={item.href}
-                onClick={() => setMobileOpen(false)}
-                className={`block transition-colors hover:text-primary ${
-                  pathname === item.href
-                    ? "text-primary font-semibold"
-                    : "text-muted-foreground"
-                }`}
-              >
-                {t(item.labelKey)}
-              </Link>
-            </li>
-          ))}
-        </ul>
-      )}
+      {/* Mobil: kalıcı alt satır (ikinci nav satırı) */}
+      <ul className="md:hidden flex flex-wrap items-center justify-center gap-x-5 gap-y-1 border-t border-border px-4 py-2 text-sm">
+        {navItems.map((item) => (
+          <li key={item.href}>
+            <Link href={item.href} className={linkClass(item.href)}>
+              {t(item.labelKey)}
+            </Link>
+          </li>
+        ))}
+      </ul>
     </header>
   );
 }
 ```
 
-- [ ] **Step 2: Build + lint**
+- [ ] **Step 2: Kullanılmayan `header.menu` key'ini kaldır**
 
-Run: `npm run build && npm run lint`
-Expected: Hatasız, temiz.
+Hamburger kaldırıldığı için `header.menu` artık kullanılmıyor. Hem `messages/tr.json` hem `messages/en.json` içindeki `header` nesnesinden `"menu": ...` satırını sil. İki dosya senkron kalsın; JSON geçerli kalsın (virgül/parantez dengesi).
 
-- [ ] **Step 3: Görsel doğrulama (masaüstü)**
+- [ ] **Step 3: Build**
+
+Run: `npm run build`
+Expected: Hatasız tamamlanır (statik export). (`npm run lint` repo genelinde önceden bozuk — kapsam dışı, çalıştırma.)
+
+- [ ] **Step 4: Görsel doğrulama (masaüstü)**
 
 Run: `npm run dev`, geniş pencerede aç.
-Expected: Üst menüde 5 link: Ana Sayfa · Deneyim · Projeler · Medya · Ödüller. Medya ve Ödüller doğru sayfalara gider; aktif sayfa vurgulanır. Hamburger butonu görünmez.
+Expected: Üst bardaki menüde 5 link: Ana Sayfa · Deneyim · Projeler · Medya · Ödüller. Medya ve Ödüller doğru sayfalara gider; aktif sayfa vurgulanır. Alt satır (ikinci nav satırı) masaüstünde GÖRÜNMEZ.
 
-- [ ] **Step 4: Görsel doğrulama (mobil)**
+- [ ] **Step 5: Görsel doğrulama (mobil)**
 
 Tarayıcıyı dar/mobil görünüme al (veya DevTools cihaz modu).
-Expected: Yatay linkler gizli, hamburger ikonu görünür. Tıklayınca 5 linkli panel açılır; bir linke tıklayınca panel kapanır ve sayfaya gidilir. İkon `Menu` ↔ `X` arasında değişir. TR ve EN'de label'lar doğru.
+Expected: Üst bardaki yatay link listesi gizli; header'ın altında kalıcı bir **ikinci satır** olarak 5 link yatay görünür (hamburger/açılır menü YOK). Linkler doğru sayfalara gider; aktif sayfa vurgulanır. Dar ekranda linkler gerekirse alta sarar (wrap). TR ve EN'de label'lar doğru.
 
-- [ ] **Step 5: Commit**
+- [ ] **Step 6: Commit**
 
 ```bash
-git add components/Header.tsx
-git commit -m "feat: add media/awards nav links and mobile menu"
+git add components/Header.tsx messages/tr.json messages/en.json
+git commit -m "feat: add media/awards nav links and mobile bottom-row menu"
 ```
 
 ---
