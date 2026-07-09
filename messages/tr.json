@@ -106,6 +106,10 @@
         "title": "Fellow",
         "description": "Küresel geliştirici ekosisteminde teknik uzmanlık ve katkı temelinde seçici olarak verilen Fellow statüsü."
       },
+      "scrs_fellow": {
+        "title": "Fellow",
+        "description": "Soft computing ve ilgili alanlarda araştırmayı destekleyen Soft Computing Research Society'nin (SCRS) Fellow üyeliği."
+      },
       "ieee_member": {
         "title": "Profesyonel Üye",
         "description": "Dünyanın en büyük teknik profesyonel kuruluşu IEEE'de profesyonel üyelik."

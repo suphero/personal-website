@@ -106,6 +106,10 @@
         "title": "Fellow",
         "description": "Selectively granted Fellow status within the global developer ecosystem, based on demonstrated technical expertise and contribution."
       },
+      "scrs_fellow": {
+        "title": "Fellow",
+        "description": "Fellow of the Soft Computing Research Society (SCRS), which promotes research in soft computing and allied areas."
+      },
       "ieee_member": {
         "title": "Professional Member",
         "description": "Professional membership in IEEE, the world's largest technical professional organization."

@@ -2,7 +2,7 @@
 
 import { useTranslations } from "next-intl";
 import { ExternalLink } from "lucide-react";
-import { formatMonthYear } from "@/lib/date";
+import { formatMonthYear, dateSortKey } from "@/lib/date";
 import { type Honor, honors } from "@/lib/awards";
 
 function HonorCard({
@@ -45,8 +45,11 @@ function HonorCard({
 
 export default function AwardsPage() {
   const t = useTranslations();
-  const fellowships = honors.filter((h) => h.section === "fellowship");
-  const juries = honors.filter((h) => h.section === "jury");
+  const byDateDesc = (a: Honor, b: Honor) => dateSortKey(b.date) - dateSortKey(a.date);
+  const fellowships = honors
+    .filter((h) => h.section === "fellowship")
+    .sort(byDateDesc);
+  const juries = honors.filter((h) => h.section === "jury").sort(byDateDesc);
 
   return (
     <div className="container mx-auto px-4 py-16 max-w-4xl">

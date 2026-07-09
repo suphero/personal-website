@@ -11,3 +11,9 @@ export function formatMonthYear(
   ];
   return `${t(`months.${monthKeys[parseInt(month) - 1]}`)} ${year}`;
 }
+
+// Sıralama için karşılaştırılabilir sayı: "2026-06" → 202606, yalnız-yıl "2026" → 202600
+export function dateSortKey(date: string): number {
+  const [year, month] = date.split("-");
+  return parseInt(year) * 100 + (month ? parseInt(month) : 0);
+}

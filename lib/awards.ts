@@ -17,6 +17,14 @@ export const honors: Honor[] = [
     current: true,
   },
   {
+    key: "scrs_fellow",
+    section: "fellowship",
+    organization: "Soft Computing Research Society",
+    organizationUrl: "https://scrs.in/scrs-fellow/1954",
+    date: "2026",
+    current: true,
+  },
+  {
     key: "ieee_member",
     section: "fellowship",
     organization: "IEEE",
