@@ -35,7 +35,7 @@ export const honors: Honor[] = [
   {
     key: "sudo_make_world",
     section: "jury",
-    organization: "Hackathon Raptors",
+    organization: "sudo make world",
     organizationUrl: "https://sudomakeworld.com",
     date: "2026-02",
   },
