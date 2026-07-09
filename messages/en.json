@@ -7,6 +7,9 @@
     "home": "Home",
     "experience": "Experience",
     "projects": "Projects",
+    "media": "Media",
+    "awards": "Awards",
+    "menu": "Menu",
     "toggleTheme": "Toggle theme",
     "theme": {
       "system": "System",
@@ -76,6 +79,18 @@
     "archivedProjects": "Archived Projects",
     "showArchived": "Show Archived Projects ({count})",
     "hideArchived": "Hide Archived Projects"
+  },
+  "mediaPage": {
+    "title": "Media",
+    "description": "Press coverage about my work and projects.",
+    "appearedIn": "Appeared in:"
+  },
+  "media": {
+    "stories": {
+      "banking_ai": {
+        "title": "AI Transformation in Banking: Financial Search Systems"
+      }
+    }
   },
   "months": {
     "jan": "Jan",

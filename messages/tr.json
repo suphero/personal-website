@@ -7,6 +7,9 @@
     "home": "Ana Sayfa",
     "experience": "Deneyim",
     "projects": "Projeler",
+    "media": "Medya",
+    "awards": "Ödüller",
+    "menu": "Menü",
     "toggleTheme": "Tema değiştir",
     "theme": {
       "system": "Sistem",
@@ -76,6 +79,18 @@
     "archivedProjects": "Arşivlenmiş Projeler",
     "showArchived": "Arşivlenmiş Projeleri Göster ({count})",
     "hideArchived": "Arşivlenmiş Projeleri Gizle"
+  },
+  "mediaPage": {
+    "title": "Medya",
+    "description": "Çalışmalarım ve projelerimle ilgili basında çıkan haberler.",
+    "appearedIn": "Çıktığı yerler:"
+  },
+  "media": {
+    "stories": {
+      "banking_ai": {
+        "title": "Bankacılıkta Yapay Zeka Dönüşümü: Finansal Arama Sistemleri"
+      }
+    }
   },
   "months": {
     "jan": "Oca",
