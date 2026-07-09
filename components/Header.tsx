@@ -20,6 +20,9 @@ export default function Header() {
   const t = useTranslations("header");
 
   useEffect(() => {
+    // next-themes hydration-guard: tema yalnızca istemcide bilinir, bu yüzden
+    // mount sonrası bir kez işaretliyoruz (tek seferlik, cascading render değil).
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     setMounted(true);
   }, []);
 
