@@ -27,7 +27,16 @@ export default function Header() {
     { href: "/", labelKey: "home" },
     { href: "/experience", labelKey: "experience" },
     { href: "/projects", labelKey: "projects" },
+    { href: "/media", labelKey: "media" },
+    { href: "/awards", labelKey: "awards" },
   ] as const;
+
+  const linkClass = (href: string) =>
+    `transition-colors hover:text-primary ${
+      pathname === href
+        ? "text-primary font-semibold"
+        : "text-muted-foreground"
+    }`;
 
   return (
     <header className="sticky top-0 z-50 w-full border-b border-border bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/80">
@@ -40,14 +49,7 @@ export default function Header() {
           <ul className="hidden md:flex items-center gap-6">
             {navItems.map((item) => (
               <li key={item.href}>
-                <Link
-                  href={item.href}
-                  className={`transition-colors hover:text-primary ${
-                    pathname === item.href
-                      ? "text-primary font-semibold"
-                      : "text-muted-foreground"
-                  }`}
-                >
+                <Link href={item.href} className={linkClass(item.href)}>
                   {t(item.labelKey)}
                 </Link>
               </li>
@@ -62,15 +64,14 @@ export default function Header() {
                 className="p-2 rounded-lg hover:bg-accent transition-colors"
                 aria-label={t("toggleTheme")}
               >
-                {mounted && (
-                  theme === "system" ? (
+                {mounted &&
+                  (theme === "system" ? (
                     <Monitor className="w-5 h-5" />
                   ) : theme === "light" ? (
                     <Sun className="w-5 h-5" />
                   ) : (
                     <Moon className="w-5 h-5" />
-                  )
-                )}
+                  ))}
               </button>
             </DropdownMenuTrigger>
             <DropdownMenuContent align="end">
@@ -93,6 +94,17 @@ export default function Header() {
           </DropdownMenu>
         </div>
       </nav>
+
+      {/* Mobil: kalıcı alt satır (ikinci nav satırı) */}
+      <ul className="md:hidden flex flex-wrap items-center justify-center gap-x-5 gap-y-1 border-t border-border px-4 py-2 text-sm">
+        {navItems.map((item) => (
+          <li key={item.href}>
+            <Link href={item.href} className={linkClass(item.href)}>
+              {t(item.labelKey)}
+            </Link>
+          </li>
+        ))}
+      </ul>
     </header>
   );
 }
