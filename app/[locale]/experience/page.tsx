@@ -2,6 +2,7 @@
 
 import { useTranslations } from "next-intl";
 import { Download } from "lucide-react";
+import { formatMonthYear } from "@/lib/date";
 
 const experienceKeys = [
   { key: "ozan_lead", company: "Ozan Elektronik Para", companyUrl: "https://www.ozan.com", dateStart: "2023-07", current: true },
@@ -16,12 +17,6 @@ const experienceKeys = [
 
 export default function ExperiencePage() {
   const t = useTranslations();
-
-  const formatDate = (date: string) => {
-    const [year, month] = date.split("-");
-    const monthKey = ["jan", "feb", "mar", "apr", "may", "jun", "jul", "aug", "sep", "oct", "nov", "dec"][parseInt(month) - 1];
-    return `${t(`months.${monthKey}`)} ${year}`;
-  };
 
   return (
     <div className="container mx-auto px-4 py-16 max-w-4xl">
@@ -56,8 +51,8 @@ export default function ExperiencePage() {
                   }`}
                 >
                   <div className="text-sm text-primary font-medium mb-2">
-                    {formatDate(exp.dateStart)} -{" "}
-                    {exp.current ? t("experiencePage.present") : formatDate(exp.dateEnd!)}
+                    {formatMonthYear(exp.dateStart, t)} -{" "}
+                    {exp.current ? t("experiencePage.present") : formatMonthYear(exp.dateEnd!, t)}
                     {exp.current && (
                       <span className="ml-2 px-2 py-0.5 bg-primary/10 text-primary rounded text-xs border border-primary/20">
                         {t("experiencePage.current")}
