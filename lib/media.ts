@@ -8,6 +8,16 @@ export type MediaStory = {
 
 export const mediaStories: MediaStory[] = [
   {
+    key: "payment_security",
+    date: "2026-07",
+    outlets: [
+      {
+        name: "Sözcü",
+        url: "https://www.sozcu.com.tr/dijital-odeme-sistemlerinde-guvenlik-onlemi-p335763",
+      },
+    ],
+  },
+  {
     key: "banking_ai",
     date: "2026-06",
     outlets: [

@@ -86,6 +86,9 @@
   },
   "media": {
     "stories": {
+      "payment_security": {
+        "title": "Security Measures in Digital Payment Systems"
+      },
       "banking_ai": {
         "title": "AI Transformation in Banking: Financial Search Systems"
       }

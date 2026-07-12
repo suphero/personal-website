@@ -86,6 +86,9 @@
   },
   "media": {
     "stories": {
+      "payment_security": {
+        "title": "Dijital Ödeme Sistemlerinde Güvenlik Önlemi"
+      },
       "banking_ai": {
         "title": "Bankacılıkta Yapay Zeka Dönüşümü: Finansal Arama Sistemleri"
       }
