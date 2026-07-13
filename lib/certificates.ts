@@ -2,5 +2,7 @@
 // Award keys that have a certificate PDF in public/certificates/.
 // Regenerated on every `npm run dev` and `npm run build`.
 export const certificateKeys: readonly string[] = [
-  "ijtaia_reviewer"
+  "ieee_member",
+  "ijtaia_reviewer",
+  "scrs_fellow"
 ];
