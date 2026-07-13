@@ -2,8 +2,10 @@
 // Maps each award key to its certificate file in public/certificates/.
 // Regenerated on every `npm run dev` and `npm run build`.
 export const certificateFiles: Record<string, string> = {
+  "garage_inference": "garage_inference.pdf",
   "ieee_member": "ieee_member.pdf",
   "ijtaia_reviewer": "ijtaia_reviewer.pdf",
   "raptors_fellow": "raptors_fellow.jpg",
-  "scrs_fellow": "scrs_fellow.pdf"
+  "scrs_fellow": "scrs_fellow.pdf",
+  "sudo_make_world": "sudo_make_world.pdf"
 };
