@@ -4,7 +4,7 @@ import { useTranslations } from "next-intl";
 import { ExternalLink, FileText } from "lucide-react";
 import { formatMonthYear, dateSortKey } from "@/lib/date";
 import { type Honor, honors } from "@/lib/awards";
-import { certificateKeys } from "@/lib/certificates";
+import { certificateFiles } from "@/lib/certificates";
 
 function HonorCard({
   honor,
@@ -13,6 +13,7 @@ function HonorCard({
   honor: Honor;
   t: ReturnType<typeof useTranslations>;
 }) {
+  const certificateFile = certificateFiles[honor.key];
   return (
     <div className="bg-card border border-border rounded-lg p-6 hover:shadow-lg transition-shadow">
       <div className="text-sm text-primary font-medium mb-2">
@@ -40,9 +41,9 @@ function HonorCard({
       <p className="text-muted-foreground text-sm mt-2">
         {t(`awards.honors.${honor.key}.description`)}
       </p>
-      {certificateKeys.includes(honor.key) && (
+      {certificateFile && (
         <a
-          href={`/certificates/${honor.key}.pdf`}
+          href={`/certificates/${certificateFile}`}
           target="_blank"
           rel="noopener noreferrer"
           className="inline-flex items-center gap-1.5 mt-4 text-sm px-3 py-1.5 rounded-full border border-border bg-secondary text-secondary-foreground hover:text-primary hover:border-primary transition-colors"
