@@ -4,7 +4,10 @@
   "description": "Professional personal website for Harun Sokullu",
   "private": true,
   "scripts": {
+    "gen:certificates": "node scripts/gen-certificates.mjs",
+    "predev": "node scripts/gen-certificates.mjs",
     "dev": "next dev",
+    "prebuild": "node scripts/gen-certificates.mjs",
     "build": "next build",
     "start": "next start",
     "lint": "eslint ."

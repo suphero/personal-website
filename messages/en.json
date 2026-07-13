@@ -98,9 +98,10 @@
     "title": "Awards",
     "description": "Fellowships, professional memberships, and jury roles.",
     "present": "Present",
+    "viewCertificate": "View Certificate",
     "sections": {
       "fellowship": "Fellowships & Memberships",
-      "jury": "Jury Roles"
+      "jury": "Jury & Review Roles"
     }
   },
   "awards": {
@@ -114,8 +115,8 @@
         "description": "Fellow of the Soft Computing Research Society (SCRS), which promotes research in soft computing and allied areas."
       },
       "ieee_member": {
-        "title": "Professional Member",
-        "description": "Professional membership in IEEE, the world's largest technical professional organization."
+        "title": "Senior Member",
+        "description": "Senior Member grade of IEEE, the world's largest technical professional organization."
       },
       "sudo_make_world": {
         "title": "sudo make world Hackathon",
@@ -128,6 +129,10 @@
       "cursor_alttab": {
         "title": "Cursor × ALT+TAB Hackathon",
         "description": "Invited jury member at an in-person hackathon developing public-interest AI solutions using municipal field data."
+      },
+      "ijtaia_reviewer": {
+        "title": "Peer Reviewer",
+        "description": "Peer reviewer for the International Journal of Technological Advancements and Industrial Applications (IJTAIA, ISSN 2837-4061), reviewing manuscripts in software engineering."
       }
     }
   },

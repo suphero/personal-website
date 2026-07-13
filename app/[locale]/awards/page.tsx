@@ -1,9 +1,10 @@
 "use client";
 
 import { useTranslations } from "next-intl";
-import { ExternalLink } from "lucide-react";
+import { ExternalLink, FileText } from "lucide-react";
 import { formatMonthYear, dateSortKey } from "@/lib/date";
 import { type Honor, honors } from "@/lib/awards";
+import { certificateKeys } from "@/lib/certificates";
 
 function HonorCard({
   honor,
@@ -39,6 +40,17 @@ function HonorCard({
       <p className="text-muted-foreground text-sm mt-2">
         {t(`awards.honors.${honor.key}.description`)}
       </p>
+      {certificateKeys.includes(honor.key) && (
+        <a
+          href={`/certificates/${honor.key}.pdf`}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-flex items-center gap-1.5 mt-4 text-sm px-3 py-1.5 rounded-full border border-border bg-secondary text-secondary-foreground hover:text-primary hover:border-primary transition-colors"
+        >
+          <FileText className="w-3.5 h-3.5" />
+          {t("awardsPage.viewCertificate")}
+        </a>
+      )}
     </div>
   );
 }

@@ -52,4 +52,10 @@ export const honors: Honor[] = [
     organization: "ALT+TAB & Cursor Istanbul",
     date: "2026-06",
   },
+  {
+    key: "ijtaia_reviewer",
+    section: "jury",
+    organization: "IJTAIA",
+    date: "2026-01",
+  },
 ];
