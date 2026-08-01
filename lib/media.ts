@@ -25,10 +25,6 @@ export const mediaStories: MediaStory[] = [
         name: "Sözcü",
         url: "https://www.sozcu.com.tr/dijital-odeme-sistemlerinde-guvenlik-onlemi-p335763",
       },
-      {
-        name: "Haber Vakti",
-        url: "https://haber-vakti.com.tr/haber/dijital-odeme-sistemlerinde-guvenlik-onlemi-86603",
-      },
     ],
   },
   {
