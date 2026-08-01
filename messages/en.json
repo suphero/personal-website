@@ -86,6 +86,9 @@
   },
   "media": {
     "stories": {
+      "banking_software_design": {
+        "title": "Critical Design Flaws in Banking Software"
+      },
       "payment_security": {
         "title": "Security Measures in Digital Payment Systems"
       },

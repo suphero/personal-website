@@ -8,6 +8,16 @@ export type MediaStory = {
 
 export const mediaStories: MediaStory[] = [
   {
+    key: "banking_software_design",
+    date: "2026-08",
+    outlets: [
+      {
+        name: "Haber7",
+        url: "https://www.haber7.com/teknoloji/haber/3647815-bankacilik-yazilimlarinda-kritik-tasarim-hatalari",
+      },
+    ],
+  },
+  {
     key: "payment_security",
     date: "2026-07",
     outlets: [
