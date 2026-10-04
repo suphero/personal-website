@@ -230,9 +230,14 @@
     "i18n": "i18n",
     "extension": "Eklenti",
     "youtube": "YouTube",
-    "automotive": "Otomotiv"
+    "automotive": "Otomotiv",
+    "queue": "Sıra"
   },
   "projects": {
+    "qrwait": {
+      "title": "QR Wait",
+      "description": "Uygulama gerektirmeyen sanal sıra sistemi: ziyaretçi değişen QR kodu okutur, sırasını canlı takip eder ve sırası gelince telefonu titrer. Konum kontrolü ve süreli kodlarla adil; Cloudflare Workers üzerinde, 16 dilde."
+    },
     "tramerli": {
       "title": "Tramerli",
       "description": "Tramer kaydını girip resmî kasko değerinden düşülmüş güncel piyasa değerini saniyeler içinde gösteren ücretsiz araç değerleme aracı."

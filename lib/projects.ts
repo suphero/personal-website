@@ -15,6 +15,12 @@ export type ProjectEntry = {
 
 export const projects: ProjectEntry[] = [
   {
+    key: "qrwait",
+    tags: ["web", "queue", "productivity"],
+    featured: true,
+    links: [{ type: "website", url: "https://qrwait.app" }],
+  },
+  {
     key: "tramerli",
     tags: ["web", "automotive", "finance"],
     featured: true,

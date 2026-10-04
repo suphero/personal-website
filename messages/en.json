@@ -230,9 +230,14 @@
     "i18n": "i18n",
     "extension": "Extension",
     "youtube": "YouTube",
-    "automotive": "Automotive"
+    "automotive": "Automotive",
+    "queue": "Queue"
   },
   "projects": {
+    "qrwait": {
+      "title": "QR Wait",
+      "description": "App-free virtual queue: visitors scan a rotating QR code, follow their place live and get a buzz when it's their turn. Location checks and expiring codes keep it fair; built on Cloudflare Workers, in 16 languages."
+    },
     "tramerli": {
       "title": "Tramerli",
       "description": "Free car valuation tool that estimates a vehicle's current market value from official insurance data, adjusted for its accident (tramer) record."
