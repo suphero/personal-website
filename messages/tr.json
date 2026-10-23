@@ -162,28 +162,24 @@
       "title": "Kıdemli Backend Geliştirici",
       "description": "Fintech çözümleri için backend servisleri geliştirme ve bakımı"
     },
-    "akbank": {
+    "akbank_architect": {
       "title": "Yazılım Mimarı",
+      "description": "Mobil arama ve chatbot platformunun backend mimarisi; teknik işe alım ve mimari yönetişim"
+    },
+    "akbank": {
+      "title": "Kıdemli Yazılım Uzmanı",
       "description": "Türkiye'nin önde gelen bankası için mobil arama işlevselliği ve chatbot geliştirme"
     },
-    "dogus_vdf2": {
-      "title": "Kıdemli Yazılım Geliştirici",
-      "description": "Filo Yönetimi ERP Uygulaması geliştirme"
+    "dogus_senior": {
+      "title": "Kıdemli Yazılım Uzmanı",
+      "description": "Filo yönetimi: VDF Filo (ikinci faz) ve yeni D-Filo platformu"
     },
-    "dogus_ntv": {
-      "title": "Yazılım Geliştirici",
-      "description": "Türkiye çapında yayın yapan televizyon haber ve spor kanalları ntv.com.tr ve ntvspor.net web siteleri üzerinde çalışma"
+    "dogus_specialist": {
+      "title": "Yazılım Uzmanı",
+      "description": "VDF Filo filo yönetimi ERP'si, Doğuş İnşaat ERP'si ve ntv.com.tr / ntvspor.net web siteleri"
     },
-    "dogus_construction": {
-      "title": "Yazılım Geliştirici",
-      "description": "İnşaat ERP Uygulaması geliştirme"
-    },
-    "dogus_vdf1": {
-      "title": "Yazılım Geliştirici",
-      "description": "Filo Yönetimi ERP Uygulaması geliştirme"
-    },
-    "dogus_leaseplan": {
-      "title": "Junior Yazılım Geliştirici",
+    "dogus_engineer": {
+      "title": "Yazılım Mühendisi",
       "description": "LeasePlan Türkiye için Filo Yönetimi ERP Uygulaması"
     }
   },

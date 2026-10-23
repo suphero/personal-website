@@ -7,12 +7,11 @@ import { formatMonthYear } from "@/lib/date";
 const experienceKeys = [
   { key: "ozan_lead", company: "Ozan Elektronik Para", companyUrl: "https://www.ozan.com", dateStart: "2024-02", current: true },
   { key: "ozan_senior", company: "Ozan Elektronik Para", companyUrl: "https://www.ozan.com", dateStart: "2022-12", dateEnd: "2024-02" },
-  { key: "akbank", company: "Akbank", companyUrl: "https://www.akbank.com", dateStart: "2020-11", dateEnd: "2022-12" },
-  { key: "dogus_vdf2", company: "Doğuş Technology (VDF Filo)", companyUrl: "https://www.d-teknoloji.com.tr", dateStart: "2018-12", dateEnd: "2020-10" },
-  { key: "dogus_ntv", company: "Doğuş Technology (NTV)", companyUrl: "https://www.d-teknoloji.com.tr", dateStart: "2018-09", dateEnd: "2018-12" },
-  { key: "dogus_construction", company: "Doğuş Technology (Doğuş Construction)", companyUrl: "https://www.d-teknoloji.com.tr", dateStart: "2018-01", dateEnd: "2018-09" },
-  { key: "dogus_vdf1", company: "Doğuş Technology (VDF Filo)", companyUrl: "https://www.d-teknoloji.com.tr", dateStart: "2016-04", dateEnd: "2018-01" },
-  { key: "dogus_leaseplan", company: "Doğuş Technology (LeasePlan)", companyUrl: "https://www.d-teknoloji.com.tr", dateStart: "2013-07", dateEnd: "2016-04" },
+  { key: "akbank_architect", company: "Akbank", companyUrl: "https://www.akbank.com", dateStart: "2022-10", dateEnd: "2022-12" },
+  { key: "akbank", company: "Akbank", companyUrl: "https://www.akbank.com", dateStart: "2020-11", dateEnd: "2022-10" },
+  { key: "dogus_senior", company: "Doğuş Technology", companyUrl: "https://www.d-teknoloji.com.tr", dateStart: "2019-02", dateEnd: "2020-10" },
+  { key: "dogus_specialist", company: "Doğuş Technology", companyUrl: "https://www.d-teknoloji.com.tr", dateStart: "2015-07", dateEnd: "2019-01" },
+  { key: "dogus_engineer", company: "Doğuş Technology", companyUrl: "https://www.d-teknoloji.com.tr", dateStart: "2013-07", dateEnd: "2015-06" },
 ];
 
 export default function ExperiencePage() {
