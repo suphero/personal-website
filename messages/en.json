@@ -1,7 +1,7 @@
 {
   "metadata": {
     "title": "Harun Sokullu - Backend Team Lead",
-    "description": "Professional personal website of Harun Sokullu, Backend Team Lead with 12+ years of experience in Enterprise Software and Open Source."
+    "description": "Professional personal website of Harun Sokullu, Backend Team Lead focused on Enterprise Software, Fintech and Open Source."
   },
   "header": {
     "home": "Home",
@@ -26,7 +26,7 @@
     "name": "Harun Sokullu",
     "role": "Backend Team Lead at",
     "company": "Ozan Elektronik Para",
-    "description": "12+ years of professional experience in <strong>Enterprise Software</strong> and <strong>Open Source</strong>. I love to make my life easier by coding.",
+    "description": "Building <strong>Enterprise Software</strong>, fintech systems and <strong>Open Source</strong> tools. I love to make my life easier by coding.",
     "experience": "Experience",
     "viewProjects": "View Projects",
     "downloadCV": "Download CV",
@@ -40,7 +40,7 @@
   "about": {
     "title": "About Me",
     "intro": "Hello there! I am <strong>Harun</strong>, a <strong>Backend Team Lead</strong> at <link>Ozan Elektronik Para</link>, with a strong focus on <strong>Enterprise Software and Open Source</strong>. I earned a <strong>Telecommunication Engineering</strong> B.Sc. at <ituLink>Istanbul Technical University</ituLink>.",
-    "experience": "I love to make my life easier by coding. With over 12 years of professional experience, I've worked on various enterprise applications, from fleet management systems to banking applications, and numerous open-source projects.",
+    "experience": "I love to make my life easier by coding. Over the years, I've worked on various enterprise applications, from fleet management systems to banking applications, and numerous open-source projects.",
     "hobbies": "I am also into gaming, watching series, and love to research new technologies. I like to call myself a <em>beta tester</em> of life."
   },
   "contact": {
@@ -58,7 +58,7 @@
   },
   "experiencePage": {
     "title": "Experience",
-    "description": "My professional journey spanning over 12 years in software development",
+    "description": "My professional journey in software development",
     "present": "Present",
     "current": "Current",
     "downloadCV": "Download Full CV"

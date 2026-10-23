@@ -5,8 +5,8 @@ import { Download } from "lucide-react";
 import { formatMonthYear } from "@/lib/date";
 
 const experienceKeys = [
-  { key: "ozan_lead", company: "Ozan Elektronik Para", companyUrl: "https://www.ozan.com", dateStart: "2023-07", current: true },
-  { key: "ozan_senior", company: "Ozan Elektronik Para", companyUrl: "https://www.ozan.com", dateStart: "2022-12", dateEnd: "2023-07" },
+  { key: "ozan_lead", company: "Ozan Elektronik Para", companyUrl: "https://www.ozan.com", dateStart: "2024-02", current: true },
+  { key: "ozan_senior", company: "Ozan Elektronik Para", companyUrl: "https://www.ozan.com", dateStart: "2022-12", dateEnd: "2024-02" },
   { key: "akbank", company: "Akbank", companyUrl: "https://www.akbank.com", dateStart: "2020-11", dateEnd: "2022-12" },
   { key: "dogus_vdf2", company: "Doğuş Technology (VDF Filo)", companyUrl: "https://www.d-teknoloji.com.tr", dateStart: "2018-12", dateEnd: "2020-10" },
   { key: "dogus_ntv", company: "Doğuş Technology (NTV)", companyUrl: "https://www.d-teknoloji.com.tr", dateStart: "2018-09", dateEnd: "2018-12" },

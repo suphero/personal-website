@@ -37,7 +37,7 @@ export const honors: Honor[] = [
     section: "jury",
     organization: "sudo make world",
     organizationUrl: "https://sudomakeworld.com",
-    date: "2026-02",
+    date: "2026-03",
   },
   {
     key: "garage_inference",

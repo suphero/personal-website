@@ -1,7 +1,7 @@
 {
   "metadata": {
     "title": "Harun Sokullu - Backend Takım Lideri",
-    "description": "Harun Sokullu'nun profesyonel kişisel web sitesi. Kurumsal Yazılım ve Açık Kaynak alanında 12+ yıllık deneyime sahip Backend Takım Lideri."
+    "description": "Harun Sokullu'nun profesyonel kişisel web sitesi. Kurumsal Yazılım, Fintech ve Açık Kaynak odaklı Backend Takım Lideri."
   },
   "header": {
     "home": "Ana Sayfa",
@@ -26,7 +26,7 @@
     "name": "Harun Sokullu",
     "role": "Backend Takım Lideri -",
     "company": "Ozan Elektronik Para",
-    "description": "<strong>Kurumsal Yazılım</strong> ve <strong>Açık Kaynak</strong> alanında 12+ yıllık profesyonel deneyim. Kodlayarak hayatımı kolaylaştırmayı seviyorum.",
+    "description": "<strong>Kurumsal Yazılım</strong>, fintech sistemleri ve <strong>Açık Kaynak</strong> araçları geliştiriyorum. Kodlayarak hayatımı kolaylaştırmayı seviyorum.",
     "experience": "Deneyim",
     "viewProjects": "Projeleri Gör",
     "downloadCV": "CV İndir",
@@ -40,7 +40,7 @@
   "about": {
     "title": "Hakkımda",
     "intro": "Merhaba! Ben <strong>Harun</strong>, <link>Ozan Elektronik Para</link>'da <strong>Backend Takım Lideri</strong>yim. <strong>Kurumsal Yazılım ve Açık Kaynak</strong> odaklı çalışıyorum. <ituLink>İstanbul Teknik Üniversitesi</ituLink>'nden <strong>Telekomünikasyon Mühendisliği</strong> lisans derecesi aldım.",
-    "experience": "Kodlayarak hayatımı kolaylaştırmayı seviyorum. 12 yılı aşkın profesyonel deneyimimle, filo yönetim sistemlerinden bankacılık uygulamalarına kadar çeşitli kurumsal uygulamalar ve birçok açık kaynak proje üzerinde çalıştım.",
+    "experience": "Kodlayarak hayatımı kolaylaştırmayı seviyorum. Yıllar içinde filo yönetim sistemlerinden bankacılık uygulamalarına kadar çeşitli kurumsal uygulamalar ve birçok açık kaynak proje üzerinde çalıştım.",
     "hobbies": "Ayrıca oyun oynamayı, dizi izlemeyi ve yeni teknolojileri araştırmayı seviyorum. Kendimi hayatın <em>beta test kullanıcısı</em> olarak tanımlamayı seviyorum."
   },
   "contact": {
@@ -58,7 +58,7 @@
   },
   "experiencePage": {
     "title": "Deneyim",
-    "description": "Yazılım geliştirmede 12 yılı aşkın profesyonel yolculuğum",
+    "description": "Yazılım geliştirmedeki profesyonel yolculuğum",
     "present": "Devam Ediyor",
     "current": "Güncel",
     "downloadCV": "CV İndir"
