@@ -64,6 +64,10 @@ export const projects: ProjectEntry[] = [
     links: [
       { type: "website", url: "https://thewayoutapp.com" },
       { type: "ios", url: "https://apps.apple.com/app/id6756630160" },
+      {
+        type: "android",
+        url: "https://play.google.com/store/apps/details?id=com.suphero.wayout",
+      },
     ],
   },
   {
