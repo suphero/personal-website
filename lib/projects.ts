@@ -15,6 +15,12 @@ export type ProjectEntry = {
 
 export const projects: ProjectEntry[] = [
   {
+    key: "mxtrue",
+    tags: ["api", "email", "web"],
+    featured: true,
+    links: [{ type: "website", url: "https://mxtrue.com" }],
+  },
+  {
     key: "qrwait",
     tags: ["web", "queue", "productivity"],
     featured: true,

@@ -227,9 +227,14 @@
     "extension": "Eklenti",
     "youtube": "YouTube",
     "automotive": "Otomotiv",
-    "queue": "Sıra"
+    "queue": "Sıra",
+    "email": "E-posta"
   },
   "projects": {
+    "mxtrue": {
+      "title": "mxtrue",
+      "description": "Mesaj göndermeden doğrudan alıcı posta sunucusuna sorarak bir adresin geçerli, geçersiz, catch-all ya da belirsiz olduğunu söyleyen e-posta doğrulama API'si. CSV veya JSON ile toplu liste, bitince webhook bildirimi; belirsiz sonuçlar ücretlendirilmez. Kapalı beta aşamasında."
+    },
     "qrwait": {
       "title": "QR Wait",
       "description": "Uygulama gerektirmeyen sanal sıra sistemi: ziyaretçi değişen QR kodu okutur, sırasını canlı takip eder ve sırası gelince telefonu titrer. Konum kontrolü ve süreli kodlarla adil; Cloudflare Workers üzerinde, 16 dilde."

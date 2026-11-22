@@ -227,9 +227,14 @@
     "extension": "Extension",
     "youtube": "YouTube",
     "automotive": "Automotive",
-    "queue": "Queue"
+    "queue": "Queue",
+    "email": "Email"
   },
   "projects": {
+    "mxtrue": {
+      "title": "mxtrue",
+      "description": "Email verification API that asks the receiving mail server directly, without sending a message, whether an address is valid, invalid, catch-all or unknown. Bulk lists via CSV or JSON with a webhook when done; unknown results are never charged. In private beta."
+    },
     "qrwait": {
       "title": "QR Wait",
       "description": "App-free virtual queue: visitors scan a rotating QR code, follow their place live and get a buzz when it's their turn. Location checks and expiring codes keep it fair; built on Cloudflare Workers, in 16 languages."
