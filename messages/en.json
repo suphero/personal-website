@@ -232,7 +232,7 @@
   },
   "projects": {
     "mxtrue": {
-      "title": "mxtrue",
+      "title": "MX True",
       "description": "Email verification API that asks the receiving mail server directly, without sending a message, whether an address is valid, invalid, catch-all or unknown. Bulk lists via CSV or JSON with a webhook when done; unknown results are never charged. In private beta."
     },
     "qrwait": {

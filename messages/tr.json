@@ -232,7 +232,7 @@
   },
   "projects": {
     "mxtrue": {
-      "title": "mxtrue",
+      "title": "MX True",
       "description": "Mesaj göndermeden doğrudan alıcı posta sunucusuna sorarak bir adresin geçerli, geçersiz, catch-all ya da belirsiz olduğunu söyleyen e-posta doğrulama API'si. CSV veya JSON ile toplu liste, bitince webhook bildirimi; belirsiz sonuçlar ücretlendirilmez. Kapalı beta aşamasında."
     },
     "qrwait": {
